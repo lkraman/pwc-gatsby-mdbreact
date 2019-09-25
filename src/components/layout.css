@@ -1,28 +1,489 @@
-.navbar.navbar-dark{
+.navbar.navbar-dark {
   margin: 0;
-  background-image: linear-gradient(90deg, #3c0472, #5D00B7);
+  background-image: linear-gradient(90deg, #525d75, #525d75);
 }
 
 .page-footer {
   margin: 0;
-  background-image: linear-gradient(-90deg, #3c0472, #5D00B7);
+  background-image: linear-gradient(-90deg, #525d75, #525d75);
 }
 
 .carousel {
-    position: absolute;
-    top: 0;
-    z-index: -100;
-    height: 100vh;
-    min-width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -100;
+  height: 100vh;
+  min-width: 100%;
 }
 
 .carousel img {
-    min-height: 100vh;
-    object-fit: cover;
+  min-height: 100vh;
+  object-fit: cover;
 }
 
-#cardSection{
-    background-color: rgba(221, 221, 221, 0.5);
-    padding: 4rem 0;
+#cardSection {
+  background-color: rgba(221, 221, 221, 0.5);
+  padding: 4rem 0;
 }
 
+.Logo {
+  background-image: url(../images/cafeAmericana_horiz_white.svg);
+}
+
+/* .theme-colors (
+  "default": #7f9c52,
+  "primary": #525d75,
+  "danger": #f44336,
+  "custom-color": #c0996b,
+  "custom-color": #fae4ca
+); */
+
+.btn-group-lg .btn-group {
+  margin: 0;
+  background-color: transparent;
+  content: center;
+}
+
+.card-columns {
+  column-count: 4;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.full-wid {
+  width: 100%;
+}
+
+.no-padd {
+  padding: 0px;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+/***spaces**/
+.space-10 {
+  width: 100%;
+  height: 10px;
+}
+
+.space-20 {
+  width: 100%;
+  height: 20px;
+}
+
+.space-30 {
+  width: 100%;
+  height: 30px;
+}
+
+.space-40 {
+  width: 100%;
+  height: 40px;
+}
+
+.space-50 {
+  width: 100%;
+  height: 50px;
+}
+
+.space-60 {
+  width: 100%;
+  height: 60px;
+}
+
+.space-70 {
+  width: 100%;
+  height: 70px;
+}
+
+.space-80 {
+  width: 100%;
+  height: 80px;
+}
+
+.space-90 {
+  width: 100%;
+  height: 90px;
+}
+
+.space-100 {
+  width: 100%;
+  height: 100px;
+}
+
+.close {
+  text-shadow: none;
+  opacity: 1;
+}
+
+/**margins**/
+.margin-0 {
+  margin: 0px;
+}
+
+.margin-b-10 {
+  margin-bottom: 10px;
+}
+
+.margin-b-20 {
+  margin-bottom: 20px;
+}
+
+.margin-b-30 {
+  margin-bottom: 30px;
+}
+
+.margin-b-40 {
+  margin-bottom: 40px;
+}
+
+.margin-b-50 {
+  margin-bottom: 50px;
+}
+
+.margin-t-10 {
+  margin-top: 10px;
+}
+
+.badge-primary {
+  background-color: #c0996b;
+}
+
+.bg-faded {
+  background-color: rgba(0, 0, 0, 0.01) !important;
+}
+
+@media (min-width: 991px) {
+  .vertical-align-child {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+  }
+}
+
+/**********back to top*************/
+.scrollToTop {
+  text-align: center;
+  font-size: 30px;
+  background: #c0996b;
+  color: #fff;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+  display: none;
+  opacity: 0.5;
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.scrollToTop:hover,
+.scrollToTop:focus {
+  text-decoration: none;
+  opacity: 1;
+  color: #fff;
+}
+
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* Font */
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #272727;
+  font-family: "Architects Daughter", cursive;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-family: "Architects Daughter", cursive;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.btn {
+  color: #000;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.cards_item {
+  display: flex-wrap;
+  padding: 0.5rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.1rem;
+  box-shadow: 0 20px 40px -9px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  list-style: none;
+}
+
+.card-center {
+  list-style: none;
+}
+
+.card_content {
+  padding: 3rem;
+  background: linear-gradient(to bottom left, #ffffff 40%, #ffffff 100%);
+}
+
+.card_title {
+  color: #212121;
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-style: inherit;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #212121;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  list-style: none;
+}
+
+.menu-links {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.menu-item {
+  font-size: 1rem;
+  font-style: bold;
+  font-family: "Roboto";
+}
+
+.menu-desc {
+  font-size: 0.8rem;
+  font-family: "Roboto";
+  text-align: wrap;
+}
+
+.small {
+  font-size: 0.6rem;
+  font-family: "Roboto";
+}
+
+.float-right {
+  font-family: futura;
+}
+
+.p-2 {
+  list-style: none;
+  font-family: "Roboto";
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: #212121;
+}
+
+.nav-link:hover {
+  color: #7f9c52;
+}
+
+.nav-link:active {
+  color: #8bc34a;
+}
+
+.a.nav-link:hover {
+  color: #7f9c52;
+}
+
+.dropdown-menu {
+  background-color: #525d75;
+}
+
+.dropdown-menu:hover {
+  background-color: #ffffff;
+}
+
+.light-green .darken-3 {
+  background-color: #7f9c52;
+}
+
+.Ripple-parent.btn-outline-default {
+  border: 2px solid #7f9c52;
+  background-color: transparent;
+  color: #7f9c52;
+}
+
+p.grey-text {
+  font-family: "Roboto";
+}
+
+p.h4-responsive {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+}
+
+h4.card-title {
+  font-size: 2.5rem;
+}
+
+button.btn-outline-light-green {
+  border: 2px solid #7f9c52;
+  background-color: transparent;
+  color: #7f9c52;
+}
+
+button.btn-danger {
+  border: 2px solid #f44336;
+  background-color: transparent;
+  color: #f44336;
+}
+
+button.btn-light-green {
+  border: 2px solid #7f9c52;
+  background-color: transparent;
+  color: #7f9c52;
+}
+
+button.btn-brown {
+  border: 2px solid #c0996b;
+  background-color: transparent;
+  color: #c0996b;
+}
+
+i.fa.fa-user-friends {
+  background-color: transparent;
+  color: #7f9c52;
+}
+
+i.fa.fa-phone.fa-2x {
+  background-color: transparent;
+  color: #c0996b;
+}
+
+a.btn-green.btn {
+  background-color: #7f9c52;
+}
+
+.send-border-color {
+  border: 2px solid #7f9c52;
+
+  color: #7f9c52;
+}
+
+.btn-default:hover {
+  background-color: transparent;
+  color: #7f9c52;
+}
+
+.ml-1 .text-center {
+  color: #7f9c52;
+}
+
+p.text-center {
+  font-family: "Roboto";
+}
+
+a.facebook-ic {
+  color: #ffffff;
+}
+
+a.instagram-ic {
+  color: #ffffff;
+}
+
+a.gplus-ic {
+  color: #ffffff;
+}
+
+a.yelp-ic {
+  color: #ffffff;
+}

@@ -1,65 +1,139 @@
 import React, { Component } from "react";
-import {
-  MDBContainer, MDBNavbar,  MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
-  MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon
-} from "mdbreact";
-import { Link } from 'gatsby';
-import CustomNavLink from './customLink';
-import { ReactComponent as Logo } from "../images/light-bulb.svg";
+import cafeAmericana_horiz_white from "../images/cafeAmericana_horiz_white.svg";
+import "./layout.css";
+import { Link } from "gatsby";
 
-class NavbarPage extends Component {
+import {
+  MDBContainer,
+  MDBNavbar,
+  MDBNavbarNav,
+  MDBNavItem,
+  MDBNavbarToggler,
+  MDBCollapse,
+  MDBDropdown,
+  MDBDropdownToggle,
+  MDBDropdownMenu,
+  MDBDropdownItem,
+  MDBRow
+} from "mdbreact";
+
+class NavPage extends Component {
   state = {
     isOpen: false
   };
 
   toggleCollapse = () => {
     this.setState({ isOpen: !this.state.isOpen });
-  }
+  };
 
   render() {
     return (
-      <MDBNavbar color="indigo" dark expand="md">
-        <MDBContainer>
-          <Logo  />
-          <Link to="/" className="navbar-brand">
-            <strong className="ml-3 white-text">Creative Agency</strong></Link>
-          <MDBNavbarToggler name="navbar-toggler" onClick={this.toggleCollapse} />
+      <MDBContainer fluid>
+        <MDBNavbar
+          color="mdb-color"
+          dark
+          expand="md"
+          style={{ marginBottom: ".1rem" }}
+        >
+          <Link to="/">
+            <img
+              src={{ cafeAmericana_horiz_white }}
+              type="image/svg"
+              width="100"
+              alt=""
+            />
+          </Link>
+          <MDBNavbarToggler onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
             <MDBNavbarNav left>
-                <CustomNavLink to="#!">Home</CustomNavLink>
-                <CustomNavLink to="#!">About</CustomNavLink>
-                <CustomNavLink to="#!">Projects</CustomNavLink>
-                <MDBNavItem>
+              <MDBNavItem>
+                <a className="navbar-links" to="/index">
+                  Home
+                </a>
+              </MDBNavItem>
+              <MDBNavItem>
+                <a className="navbar-links" to="/about">
+                  About
+                </a>
+              </MDBNavItem>
+              <MDBNavItem>
+                <a className="navbar-links" to="/menu">
+                  Menu
+                </a>
+              </MDBNavItem>
+
+              <MDBNavItem>
                 <MDBDropdown>
                   <MDBDropdownToggle nav caret>
-                    <div className="d-none d-md-inline">About</div>
+                    <span className="mr-2">Locations</span>
                   </MDBDropdownToggle>
-                  <MDBDropdownMenu right>
-                    <MDBDropdownItem href="#!">Contact</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Articles</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Testimonials</MDBDropdownItem>
+                  <MDBDropdownMenu className="dropdown-menu">
+                    <MDBDropdownItem>
+                      <a
+                        className="dropdown-nav-link-kennett"
+                        to="/kennettsquare"
+                      >
+                        Kennett Square, PA
+                      </a>
+                    </MDBDropdownItem>
+                    <MDBDropdownItem>
+                      <a className="dropdown-nav-link-pike" to="/pikecreek">
+                        Pike Creek, DE
+                      </a>
+                    </MDBDropdownItem>
                   </MDBDropdownMenu>
                 </MDBDropdown>
               </MDBNavItem>
             </MDBNavbarNav>
             <MDBNavbarNav right>
-              <div className="d-flex align-items-center">
-                <CustomNavLink to="#!">
-                  <MDBIcon fab icon="facebook" className="ml-1" />
-                </CustomNavLink>
-                <CustomNavLink to="#!">
-                  <MDBIcon fab icon="twitter" className="ml-1" />
-                </CustomNavLink>
-                <CustomNavLink to="#!">
-                  <MDBIcon fab icon="linkedin" className="ml-1" />
-                </CustomNavLink>
-              </div>
+              <MDBRow className="navbar-d-flex">
+                <div className="text-right">
+                  <ul className="navbar-list-unstyled list-inline">
+                    <li className="list-inline-item">
+                      <a
+                        to="https://www.facebook.com/camckonly/"
+                        className="nav-bar-social-media facebook-ic mr-3"
+                        role="button"
+                      >
+                        <i className="fab fa-lg fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        to="https://www.g.page/cafeamericana/review"
+                        className="instagram-ic mr-3"
+                        role="button"
+                      >
+                        <i className="fab fa-lg fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        to="https://www.g.page/cafeamericana/review"
+                        className="gplus-ic mr-3"
+                        role="button"
+                      >
+                        <i className="fab fa-lg fa-google-plus-g"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        to="https://www.yelp.com/biz/cafe-americana-kennett-square"
+                        className="yelp-ic mr-3"
+                        role="button"
+                      >
+                        <i className="fab fa-lg fab fa-yelp"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </MDBRow>
             </MDBNavbarNav>
           </MDBCollapse>
-        </MDBContainer>
-      </MDBNavbar>
+        </MDBNavbar>
+      </MDBContainer>
     );
   }
 }
 
-export default NavbarPage;
+export default NavPage;

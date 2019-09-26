@@ -11,7 +11,7 @@ import {
   MDBBtn
 } from "mdbreact";
 
-export const KennettSquare = () => (
+export const KennettSquarePage = () => (
   <>
     <MDBContainer>
       <section className="my-5">
@@ -181,4 +181,4 @@ export const KennettSquare = () => (
   </>
 );
 
-export default KennettSquare;
+export default KennettSquarePage;

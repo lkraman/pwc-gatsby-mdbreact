@@ -58,7 +58,6 @@ export const Menu = () => (
               <br />
               <span className="float-right font-weight-bold">$11.99</span>
               <h6 className="menu-item">American Nachos</h6>
-
               <p className="menu-desc">
                 {" "}
                 American nachos chili or chicken tinga{" "}
@@ -69,12 +68,6 @@ export const Menu = () => (
                 {" "}
                 Olives, tomato, and feta cheese served with bread{" "}
               </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-sm-6">
-          <div className="card">
-            <div className="card-body">
               <span className="float-right font-weight-bold">$12.99</span>
               <h6 className="menu-item">Shrimp Avocado</h6>
               <p className="menu-desc">

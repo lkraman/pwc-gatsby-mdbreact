@@ -11,7 +11,7 @@ import {
   MDBBtn
 } from "mdbreact";
 
-export const PikeCreek = () => (
+export const PikeCreekPage = () => (
   <>
     <MDBContainer>
       <section className="my-5">
@@ -175,4 +175,4 @@ export const PikeCreek = () => (
   </>
 );
 
-export default PikeCreek;
+export default PikeCreekPage;

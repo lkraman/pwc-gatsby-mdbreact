@@ -26,10 +26,6 @@
   padding: 4rem 0;
 }
 
-.Logo {
-  background-image: url(../images/cafeAmericana_horiz_white.svg);
-}
-
 /* .theme-colors (
   "default": #7f9c52,
   "primary": #525d75,
@@ -253,8 +249,6 @@ body {
 
 .h1 {
   font-family: "Architects Daughter", cursive;
-  font-size: 1.4rem;
-  font-weight: 400;
 }
 
 .btn {
@@ -470,20 +464,4 @@ a.btn-green.btn {
 
 p.text-center {
   font-family: "Roboto";
-}
-
-a.facebook-ic {
-  color: #ffffff;
-}
-
-a.instagram-ic {
-  color: #ffffff;
-}
-
-a.gplus-ic {
-  color: #ffffff;
-}
-
-a.yelp-ic {
-  color: #ffffff;
 }

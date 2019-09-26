@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBContainer, MDBBtn, MDBIcon, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer, MDBBtn, MDBRow, MDBCol } from "mdbreact";
 
 const Intro = ({ children }) => {
   return (
@@ -14,8 +14,8 @@ const Intro = ({ children }) => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit deleniti
             consequuntur nihil.
           </h4>
-          <MDBBtn color="info">
-            <MDBIcon icon="home" className="mr-2" /> Visit us
+          <MDBBtn type="button" class="btn btn-light-green">
+            Visit Menu
           </MDBBtn>
         </MDBCol>
       </MDBRow>

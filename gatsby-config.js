@@ -27,7 +27,7 @@ module.exports = {
         background_color: `#0c457d`,
         theme_color: `#8bc34a`,
         display: `standalone`,
-        icon: `${__dirname}/src/images/cafeLogo.svg` // This path is relative to the root of the site.
+        icon: `${__dirname}/src/images/cafeAmericana_logo_PAN_black.svg` // This path is relative to the root of the site.
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality

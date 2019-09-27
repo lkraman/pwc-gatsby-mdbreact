@@ -1,5 +1,6 @@
 import React from "react";
 import { MDBContainer, MDBIcon } from "mdbreact";
+
 import "../components/layout.css";
 import heroImage from "../images/heroImage.jpg";
 import ScrollToTop from "react-scroll-up";

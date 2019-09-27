@@ -1,5 +1,15 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from "mdbreact";
+import {
+  MDBCol,
+  MDBContainer,
+  MDBRow,
+  MDBFooter,
+  MDBIcon,
+  MDBDropdown,
+  MDBDropdownToggle,
+  MDBDropdownMenu,
+  MDBDropdownItem
+} from "mdbreact";
 
 const Footer = () => {
   return (
@@ -18,18 +28,25 @@ const Footer = () => {
           </MDBCol>
           <MDBCol md="2" className="b-3">
             <h6 className="title font-weight-bold">
-              <a href="#!">Order Online</a>
+              <a href="#!">Takeout</a>
             </h6>
           </MDBCol>
+
           <MDBCol md="2" className="b-3">
-            <h6 className="title font-weight-bold">
-              <a href="#!">Contact</a>
-            </h6>
-          </MDBCol>
-          <MDBCol md="2" className="b-3">
-            <h6 className="title font-weight-bold">
-              <a href="#!">Locations</a>
-            </h6>
+            <MDBDropdown>
+              <MDBDropdownToggle nav caret>
+                <div className="d-none d-md-inline">Locations</div>
+              </MDBDropdownToggle>
+              <MDBDropdownMenu>
+                <MDBDropdownItem href="/kennettsquare">
+                  Kennett Square, PA
+                </MDBDropdownItem>
+                <MDBDropdownItem href="/pikecreek">
+                  Pike Creek, DE <br />
+                  (coming soon!)
+                </MDBDropdownItem>
+              </MDBDropdownMenu>
+            </MDBDropdown>
           </MDBCol>
         </MDBRow>
         <hr className="rgba-white-light" style={{ margin: "0 15%" }} />
@@ -46,6 +63,13 @@ const Footer = () => {
 
               <MDBIcon
                 fab
+                icon="instagram"
+                size="lg"
+                className="mx-2 white-text mr-md-4"
+              ></MDBIcon>
+
+              <MDBIcon
+                fab
                 icon="google-plus-g"
                 size="lg"
                 className="mx-2 white-text mr-md-4"
@@ -53,7 +77,7 @@ const Footer = () => {
 
               <MDBIcon
                 fab
-                icon="instagram"
+                icon="yelp"
                 size="lg"
                 className="mx-2 white-text mr-md-4"
               ></MDBIcon>

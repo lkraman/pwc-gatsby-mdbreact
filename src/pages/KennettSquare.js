@@ -1,5 +1,8 @@
 import React from "react";
+import "../components/layout.css";
 import kennettStoreFront from "../images/kennettStoreFront.jpg";
+import SEO from "../components/seo";
+import Layout from "../components/layout";
 
 import {
   MDBContainer,
@@ -12,7 +15,8 @@ import {
 } from "mdbreact";
 
 export const KennettSquarePage = () => (
-  <>
+  <Layout pageInfo={{ pageName: "kennettsquare" }}>
+    <SEO title="Cafe Americana Restaurant Kennett Square, Pa" />
     <MDBContainer>
       <section className="my-5">
         <h2 className="h1-responsive font-weight-bold text-center my-5">
@@ -27,7 +31,7 @@ export const KennettSquarePage = () => (
         </p>
         <br />
         <MDBRow>
-          <MDBCol lg="12">
+          <MDBCol md="8">
             <div
               id="map-container"
               className="rounded z-depth-1-half map-container"
@@ -88,97 +92,46 @@ export const KennettSquarePage = () => (
                 </MDBBtn>
 
                 <p className="mb-md-0" style={{ fontSize: "1rem" }}>
-                  CMCK@cafeamericana.net
+                  <a className="nav-link" href="mailto:CMCK@cafeamericana.net">
+                    CMCK@cafeamericana.net
+                  </a>
                 </p>
               </MDBCol>
             </MDBRow>
           </MDBCol>
+
+          <br />
+
+          <MDBCol md="4">
+            <p
+              className="h5 text-center mb-1"
+              style={{ fontFamily: "Architects Daughter" }}
+            >
+              Hours of Operation:
+            </p>
+            <br />
+            <div className="d-flex flex-column right">
+              <MDBCardImage
+                hover
+                overlay="white-slight"
+                className="rounded mx-auto d-block"
+                src={kennettStoreFront}
+                alt="cafe americana storefront photo"
+              />
+              <div className="p-2 col-example text-center">
+                Mon - Sat: 7AM - 8PM
+              </div>
+              <div className="p-2 col-example text-center">Sun: 7AM - 4PM</div>
+              <div className="p-2 col-example text-center">
+                Please visit our FaceBook page for Holiday hours and inclement
+                weather closings.
+              </div>
+            </div>
+          </MDBCol>
         </MDBRow>
       </section>
     </MDBContainer>
-
-    <MDBContainer>
-      <MDBRow>
-        <MDBCol md="6">
-          <form>
-            <p
-              className="h5 text-center mb-4"
-              style={{ fontFamily: "Architects Daughter" }}
-            >
-              Write to us
-            </p>
-            <div className="grey-text" style={{ fontFamily: "roboto" }}>
-              <MDBInput
-                label="Your name"
-                icon="user"
-                group
-                type="text"
-                validate
-                error="wrong"
-                success="right"
-              />
-              <MDBInput
-                label="Your email"
-                icon="envelope"
-                group
-                type="email"
-                validate
-                error="wrong"
-                success="right"
-              />
-              <MDBInput
-                label="Subject"
-                icon="tag"
-                group
-                type="text"
-                validate
-                error="wrong"
-                success="right"
-              />
-              <MDBInput
-                type="textarea"
-                rows="2"
-                label="Your message"
-                icon="pencil-alt"
-              />
-            </div>
-            <div className="text-center">
-              <MDBBtn className="send-border-color">
-                Send <MDBIcon far icon="paper-plane" className="ml-1" />
-              </MDBBtn>
-            </div>
-          </form>
-          <br />
-        </MDBCol>
-        <MDBCol md="6">
-          <p
-            className="h5 text-center mb-1"
-            style={{ fontFamily: "Architects Daughter" }}
-          >
-            Hours of Operation:
-          </p>
-          <br />
-          <div className="d-flex flex-column right">
-            <MDBCardImage
-              hover
-              overlay="white-slight"
-              className="rounded mx-auto d-block"
-              src={kennettStoreFront}
-              alt="cafe americana storefront photo"
-            />
-            <div className="p-2 col-example text-center">
-              Mon - Sat: 7AM - 8PM
-            </div>
-            <div className="p-2 col-example text-center">Sun: 7AM - 4PM</div>
-            <div className="p-2 col-example text-center">
-              Please visit our FaceBook page for Holiday hours and inclement
-              weather closings.
-            </div>
-          </div>
-        </MDBCol>
-      </MDBRow>
-    </MDBContainer>
-  </>
+  </Layout>
 );
 
 export default KennettSquarePage;

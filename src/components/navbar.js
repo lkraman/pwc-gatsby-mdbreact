@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import cafeAmericana_horiz_white from "../images/cafeAmericana_horiz_white.svg";
+import SEO from "../components/seo";
+import cafeAmericana_logo_PAN_black from "../images/cafeAmericana_logo_PAN_black.svg";
 import "../components/layout.css";
 import CustomNavLink from "./customLink";
 import { Link } from "gatsby";
@@ -38,7 +39,7 @@ class NavPage extends Component {
         >
           <Link to="/">
             <img
-              src={cafeAmericana_horiz_white}
+              src={cafeAmericana_logo_PAN_black}
               type="image/svg"
               width="100"
               alt=""
@@ -47,20 +48,20 @@ class NavPage extends Component {
           <MDBNavbarToggler onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
             <MDBNavbarNav left>
-              <CustomNavLink to="#!">Home</CustomNavLink>
+              <CustomNavLink to="/">Home</CustomNavLink>
               <CustomNavLink to="/fullmenu">Menu</CustomNavLink>
-              <CustomNavLink to="#!">Order Online</CustomNavLink>
-              <CustomNavLink to="#!">Contact</CustomNavLink>
+              <CustomNavLink to="#!">Takeout</CustomNavLink>
+
               <MDBNavItem>
                 <MDBDropdown>
                   <MDBDropdownToggle nav caret>
                     <div className="d-none d-md-inline">Locations</div>
                   </MDBDropdownToggle>
-                  <MDBDropdownMenu right>
-                    <MDBDropdownItem href="#!">
+                  <MDBDropdownMenu>
+                    <MDBDropdownItem href="/kennettsquare">
                       Kennett Square, PA
                     </MDBDropdownItem>
-                    <MDBDropdownItem href="#!">
+                    <MDBDropdownItem href="/pikecreek">
                       Pike Creek, DE <br />
                       (coming soon!)
                     </MDBDropdownItem>

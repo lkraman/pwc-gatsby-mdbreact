@@ -1,22 +1,34 @@
 import React from "react";
-import { MDBContainer, MDBBtn, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer, MDBBtn, MDBRow, MDBCol, MDBIcon } from "mdbreact";
+import cafeAmericana_horiz_white from "../images/cafeAmericana_horiz_white.svg";
+import "./layout.css";
+import { Link } from "gatsby";
 
 const Intro = ({ children }) => {
   return (
-    <MDBContainer style={{ marginTop: "25vh", marginBottom: "50vh" }}>
+    <MDBContainer style={{ marginTop: "15vh", marginBottom: "50vh" }}>
       <MDBRow>
         <MDBCol md="12" className="white-text text-center">
-          <h2 className="h1-responsive font-weight-bold white-text mb-0 pt-md-5 pt-5">
-            Cafe Americana
-          </h2>
+          <img
+            src={cafeAmericana_horiz_white}
+            type="image/svg"
+            width="50%"
+            alt=""
+          />
           <hr className="hr-light my-4 w-75" />
           <h4 className="subtext-header h4-responsive mt-2 mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit deleniti
-            consequuntur nihil.
+            Enjoy our mouth watering
           </h4>
-          <MDBBtn type="button" class="btn btn-light-green">
-            Visit Menu
+          <Link to="/fullmenu">
+            <MDBBtn outline color="light-green" className="mb-5">
+              <MDBIcon icon="utensils" className="mr-2"></MDBIcon> View Menu
+            </MDBBtn>
+          </Link>
+          {/* <a href="https://example.com" target="_blank" rel="noopener noreferrer"> */}
+          <MDBBtn outline color="light-green" className="mb-5">
+            <MDBIcon icon="laptop" className="mr-2"></MDBIcon> Takeout
           </MDBBtn>
+          {/* </a> */}
         </MDBCol>
       </MDBRow>
     </MDBContainer>

@@ -1,45 +1,78 @@
 import React from "react";
-import { MDBRow, MDBCol, MDBIcon, MDBContainer } from "mdbreact";
+import { MDBBtn, MDBRow, MDBCol, MDBIcon, MDBContainer } from "mdbreact";
 
 const FeaturesPage = () => {
-    return (
-        <MDBContainer tag="section"  className="text-center my-5">
-            <h2 className="h1-responsive font-weight-bold my-5">
-                Why is it so great?
-            </h2>
-            <p className="lead grey-text w-responsive mx-auto mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam.
-            </p>
+  return (
+    <MDBContainer>
+      <section className="my-5">
+        <h2 className="h1-responsive font-weight-bold text-center my-5">
+          Why is it so great?
+        </h2>
+        <p className="lead grey-text w-responsive text-center mx-auto mb-5">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam.
+        </p>
+
+        <MDBRow>
+          <MDBCol md="4" className="md-0 mb-5">
             <MDBRow>
-                <MDBCol md="4">
-                    <MDBIcon icon="chart-area" size="3x" className="red-text" />
-                    <h5 className="font-weight-bold my-4">Analytics</h5>
-                    <p className="grey-text mb-md-0 mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Reprehenderit maiores aperiam minima assumenda deleniti hic.
-                    </p>
-                </MDBCol>
-                <MDBCol md="4">
-                    <MDBIcon icon="book" size="3x" className="cyan-text" />
-                    <h5 className="font-weight-bold my-4">Tutorials</h5>
-                    <p className="grey-text mb-md-0 mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Reprehenderit maiores aperiam minima assumenda deleniti hic.
-                    </p>
-                </MDBCol>
-                <MDBCol md="4">
-                    <MDBIcon far icon="comments" size="3x" className="orange-text" />
-                    <h5 className="font-weight-bold my-4">Support</h5>
-                    <p className="grey-text mb-md-0 mb-5">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Reprehenderit maiores aperiam minima assumenda deleniti hic.
-                    </p>
-                </MDBCol>
+              <MDBCol lg="2" md="3" size="2">
+                <MDBIcon icon="utensils" size="2x" className="red-text" />
+              </MDBCol>
+              <MDBCol lg="10" md="9" size="10">
+                <h4 className="font-weight-bold">Menu</h4>
+                <p className="grey-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
+                </p>
+                <MDBBtn color="danger" size="sm">
+                  Visit Menu
+                </MDBBtn>
+              </MDBCol>
             </MDBRow>
-        </MDBContainer>
-    );
-}
+          </MDBCol>
+          <MDBCol md="4" className="md-0 mb-5">
+            <MDBRow>
+              <MDBCol lg="2" md="3" size="2">
+                <MDBIcon icon="user-friends" size="2x" className="green-text" />
+              </MDBCol>
+              <MDBCol lg="10" md="9" size="10">
+                <h4 className="font-weight-bold yext-center">About Us</h4>
+                <p className="grey-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
+                </p>
+                <MDBBtn color="light-green" size="sm">
+                  Learn More
+                </MDBBtn>
+              </MDBCol>
+            </MDBRow>
+          </MDBCol>
+          <MDBCol md="4" className="md-0 mb-5">
+            <MDBRow>
+              <MDBCol lg="2" md="3" size="2">
+                <MDBIcon icon="phone" size="2x" className="brown-text" />
+              </MDBCol>
+              <MDBCol lg="10" md="9" size="10">
+                <h4 className="font-weight-bold">Contact Us</h4>
+                <p className="grey-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
+                </p>
+                <MDBBtn color="brown" size="sm">
+                  Contact Us
+                </MDBBtn>
+              </MDBCol>
+            </MDBRow>
+          </MDBCol>
+        </MDBRow>
+      </section>
+    </MDBContainer>
+  );
+};
 
 export default FeaturesPage;

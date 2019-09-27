@@ -1,4 +1,5 @@
 import React from "react";
+import "../components/layout.css";
 
 import { MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn } from "mdbreact";
 

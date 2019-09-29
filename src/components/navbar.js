@@ -33,6 +33,7 @@ class NavPage extends Component {
       <MDBContainer fluid>
         <MDBNavbar
           color="mdb-color"
+          opacity=".50"
           dark
           expand="md"
           style={{ marginBottom: ".1rem" }}

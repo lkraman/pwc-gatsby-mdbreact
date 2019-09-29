@@ -1,8 +1,9 @@
 import React from "react";
+import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 export const NoMatchPage = () => (
-  <Layout pageInfo={{ pageName: "404" }}>
+  <Layout pageInfo={{ pageName: "nomatchpage" }}>
     <SEO title="404" />
     <div>
       <h2>Uh Oh!!!</h2>

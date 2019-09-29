@@ -383,6 +383,14 @@ a.nav-link {
   color: #7f9c52;
 }
 
+.a:active {
+  color: #8bc34a;
+}
+
+.a:hover {
+  color: #7f9c52;
+}
+
 .dropdown-menu {
   background-color: #525d75;
 }

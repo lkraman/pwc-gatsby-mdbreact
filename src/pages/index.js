@@ -30,7 +30,7 @@ class App extends Component {
           <Carousel />
           <Intro />
           <main>
-            <AboutSection />
+            {/* <AboutSection /> */}
             {/* <section id="cardSection">
               <h2 className="h1-responsive text-center font-weight-bold mb-5">
                 Our bestsellers

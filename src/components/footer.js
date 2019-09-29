@@ -50,40 +50,50 @@ const Footer = () => {
           </MDBCol>
         </MDBRow>
         <hr className="rgba-white-light" style={{ margin: "0 15%" }} />
-
-        <MDBRow className="pb-3">
-          <MDBCol md="12">
-            <div className="mb-5 flex-center">
-              <MDBIcon
-                fab
-                icon="facebook-f"
-                size="lg"
-                className="mx-2 white-text mr-md-4"
-              ></MDBIcon>
-
-              <MDBIcon
-                fab
-                icon="instagram"
-                size="lg"
-                className="mx-2 white-text mr-md-4"
-              ></MDBIcon>
-
-              <MDBIcon
-                fab
-                icon="google-plus-g"
-                size="lg"
-                className="mx-2 white-text mr-md-4"
-              ></MDBIcon>
-
-              <MDBIcon
-                fab
-                icon="yelp"
-                size="lg"
-                className="mx-2 white-text mr-md-4"
-              ></MDBIcon>
-            </div>
-          </MDBCol>
-        </MDBRow>
+       
+              <MDBRow className="navbar-d-flex">
+                <div className="text-center">
+                  <ul className="navbar-list-unstyled list-inline">
+                    <li className="list-inline-item">
+                      <a
+                        href="https://www.facebook.com/camckonly/"
+                        className="nav-bar-social-media facebook-ic mr-3 white-text"
+                        role="button"
+                      >
+                        <i className="fab fa-lg fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        href="https://www.g.page/cafeamericana/review"
+                        className="instagram-ic mr-3 white-text"
+                        role="button"
+                      >
+                        <i className="fab fa-lg fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        href="https://www.g.page/cafeamericana/review"
+                        className="gplus-ic mr-3 white-text"
+                        role="button"
+                      >
+                        <i className="fab fa-lg fa-google-plus-g"></i>
+                      </a>
+                    </li>
+                    <li className="list-inline-item">
+                      <a
+                        href="https://www.yelp.com/biz/cafe-americana-kennett-square"
+                        className="yelp-ic mr-3 white-text"
+                        role="button"
+                      >
+                        <i className="fab fa-lg fab fa-yelp"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </MDBRow>
+       
       </MDBContainer>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>

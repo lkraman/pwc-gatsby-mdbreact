@@ -19,7 +19,6 @@
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
     "mdbreact": "4.10.0",
-    "netlify-cms-app": "^2.9.7",
     "prop-types": "^15.6.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",

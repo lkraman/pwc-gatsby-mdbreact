@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 export const NoMatchPage = () => (
-  <Layout pageInfo={{ pageName: "nomatchpage" }}>
+  <Layout pageInfo={{ pageName: "noMatchPage" }}>
     <SEO title="404" />
     <div>
       <h2>Uh Oh!!!</h2>

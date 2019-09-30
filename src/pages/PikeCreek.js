@@ -19,11 +19,11 @@ export const PikeCreekPage = () => (
     <SEO title="Cafe Americana Restaurant Pike Creek, De" />
     <MDBContainer>
       <section className="my-5">
-        <h2 className="h1-responsive font-weight-bold text-center my-5">
+        <h2 className="contactHeader h1-responsive font-weight-bold text-center my-5">
           Contact us
         </h2>
         <p
-          className="text-center w-responsive mx-auto"
+          className="contactText text-center w-responsive mx-auto"
           style={{ fontSize: "1rem" }}
         >
           Coming Soon to a new location conveniently located in Pike Creek,
@@ -104,10 +104,7 @@ export const PikeCreekPage = () => (
           <br />
 
           <MDBCol md="4">
-            <p
-              className="h5 text-center mb-1"
-              style={{ fontFamily: "Architects Daughter" }}
-            >
+            <p className="hoursPhotoHeader h5 text-center mb-1">
               Hours of Operation:
             </p>
             <br />

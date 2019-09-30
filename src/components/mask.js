@@ -6,9 +6,9 @@ import { Link } from "gatsby";
 
 const Intro = ({ children }) => {
   return (
-    <MDBContainer style={{ marginTop: "10vh", marginBottom: "15vh" }}>
+    <MDBContainer style={{ marginTop: "10vh", marginBottom: "30vh" }}>
       <MDBRow className="justify-content-center">
-      <MDBCol md="12" className="white-text text-center">
+        <MDBCol md="12" className="white-text text-center">
           <img
             src={cafeAmericana_horiz_white}
             type="image/svg"
@@ -16,27 +16,27 @@ const Intro = ({ children }) => {
             alt=""
           />
           <hr className="hr-light my-3 w-75" />
-            <MDBRow className="justify-content-center">
+          <MDBRow className="justify-content-center">
             <MDBCol md="3">
-          <Link to="/fullmenu">
-            <MDBBtn outline color="light-green" className="mb-5">
-              <MDBIcon icon="utensils" className="mr-3"></MDBIcon> View Menu
-            </MDBBtn>
-          </Link></MDBCol>
-              <MDBCol md="3"> {/* <a href="https://example.com" target="_blank" rel="noopener noreferrer"> */}
-          <MDBBtn outline color="light-green" className="mb-5">
-            <MDBIcon icon="laptop" className="mr-3"></MDBIcon> Takeout
-          </MDBBtn>
-          {/* </a> */}</MDBCol>
-            </MDBRow>
-          </MDBCol>
-         
-        </MDBRow>
-        
-         
+              <Link to="/fullmenu">
+                <MDBBtn outline color="light-green" className="mb-5">
+                  <MDBIcon icon="utensils" className="mr-3"></MDBIcon> View Menu
+                </MDBBtn>
+              </Link>
+            </MDBCol>
+            <MDBCol md="3">
+              {" "}
+              {/* <a href="https://example.com" target="_blank" rel="noopener noreferrer"> */}
+              <MDBBtn outline color="light-green" className="mb-5">
+                <MDBIcon icon="laptop" className="mr-3"></MDBIcon> Takeout
+              </MDBBtn>
+              {/* </a> */}
+            </MDBCol>
+          </MDBRow>
+        </MDBCol>
+      </MDBRow>
     </MDBContainer>
   );
 };
 
 export default Intro;
-

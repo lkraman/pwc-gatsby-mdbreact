@@ -19,11 +19,11 @@ export const KennettSquarePage = () => (
     <SEO title="Cafe Americana Restaurant Kennett Square, Pa" />
     <MDBContainer>
       <section className="my-5">
-        <h2 className="h1-responsive font-weight-bold text-center my-5">
+        <h2 className="contactHeader h1-responsive font-weight-bold text-center my-5">
           Contact us
         </h2>
         <p
-          className="text-center w-responsive mx-auto"
+          className="contactText text-center w-responsive mx-auto"
           style={{ fontSize: "1rem" }}
         >
           Conveniently located in Kennett Square, PA with ample, well-lit
@@ -47,7 +47,7 @@ export const KennettSquarePage = () => (
               />
             </div>
             <br />
-            <MDBRow className="text-center">
+            <MDBRow className="contactText">
               <MDBCol md="4">
                 <MDBBtn
                   tag="a"
@@ -102,11 +102,8 @@ export const KennettSquarePage = () => (
 
           <br />
 
-          <MDBCol md="4">
-            <p
-              className="h5 text-center mb-1"
-              style={{ fontFamily: "Architects Daughter" }}
-            >
+          <MDBCol md="4" style={{ fontStyle: "Architects Daughter" }}>
+            <p className="hoursPhotoHeader h5 text-center mb-1">
               Hours of Operation:
             </p>
             <br />

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import SEO from "../components/seo";
-import cafeAmericana_logo_PAN_black from "../images/cafeAmericana_logo_PAN_black.svg";
+import CafeAmericana_logo_PAN_black1 from "../images/CafeAmericana_logo_PAN_black1.png";
 import "../components/layout.css";
 import CustomNavLink from "./customLink";
 import { Link } from "gatsby";
@@ -40,9 +40,9 @@ class NavPage extends Component {
         >
           <Link to="/">
             <img
-              src={cafeAmericana_logo_PAN_black}
+              src={CafeAmericana_logo_PAN_black1}
               type="image/svg"
-              width="100"
+              width="75"
               alt=""
             />
           </Link>

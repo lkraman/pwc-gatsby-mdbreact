@@ -10,7 +10,6 @@ import {
   MDBRow,
   MDBIcon,
   MDBCol,
-  MDBInput,
   MDBBtn
 } from "mdbreact";
 

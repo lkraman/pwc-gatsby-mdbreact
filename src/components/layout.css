@@ -253,8 +253,17 @@ body {
   font-family: "Architects Daughter", cursive;
 }
 
+h2.menu-header {
+  font-family: "Architects Daughter", cursive;
+  margin-top: 1rem;
+}
+
 .contactHeader {
   font-family: "Architects Daughter", cursive;
+}
+
+section.my-5 {
+  margin-top: 1rem;
 }
 
 .btn {
@@ -493,8 +502,4 @@ a.btn-green.btn {
 
 .ml-1 .text-center {
   color: #7f9c52;
-}
-
-.text-center {
-  font-family: "Roboto";
 }

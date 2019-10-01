@@ -22,7 +22,7 @@ export const KennettSquarePage = () => (
           Contact us
         </h2>
         <p
-          className="contactText text-center w-responsive mx-auto"
+          className="contactinfo text-center w-responsive mx-auto"
           style={{ fontSize: "1rem" }}
         >
           Conveniently located in Kennett Square, PA with ample, well-lit
@@ -46,7 +46,7 @@ export const KennettSquarePage = () => (
               />
             </div>
             <br />
-            <MDBRow className="contactText">
+            <MDBRow className="text-center">
               <MDBCol md="4">
                 <MDBBtn
                   tag="a"
@@ -57,15 +57,15 @@ export const KennettSquarePage = () => (
                   <MDBIcon icon="map-marker-alt" />
                 </MDBBtn>
                 <p
+                  className="contactinfo"
                   style={{
-                    fontStyle: "Roboto",
                     fontSize: "1rem"
                   }}
                 >
-                  350 Scarlet Rd
+                  4500 New Linden Hill Rd
                 </p>
-                <p className="mb-md-0" style={{ fontSize: "1rem" }}>
-                  Kennett Square, PA 19348
+                <p className="contactinfo mb-md-0" style={{ fontSize: "1rem" }}>
+                  Wilmington, DE 19808
                 </p>
               </MDBCol>
               <MDBCol md="4">
@@ -78,7 +78,9 @@ export const KennettSquarePage = () => (
                   <MDBIcon icon="phone" />
                 </MDBBtn>
 
-                <p style={{ fontSize: "1rem" }}>(484) 731-4123</p>
+                <p className="contactinfo mb-md-0" style={{ fontSize: "1rem" }}>
+                  (302) 543-7363
+                </p>
               </MDBCol>
               <MDBCol md="4">
                 <MDBBtn
@@ -90,7 +92,10 @@ export const KennettSquarePage = () => (
                   <MDBIcon icon="envelope" />
                 </MDBBtn>
 
-                <p className="mb-md-0" style={{ fontSize: "1rem" }}>
+                <p
+                  className=" contactinfo mb-md-0"
+                  style={{ fontSize: "1rem" }}
+                >
                   <a className="nav-link" href="mailto:CMCK@cafeamericana.net">
                     CMCK@cafeamericana.net
                   </a>
@@ -101,7 +106,7 @@ export const KennettSquarePage = () => (
 
           <br />
 
-          <MDBCol md="4" style={{ fontStyle: "Architects Daughter" }}>
+          <MDBCol md="4">
             <p className="hoursPhotoHeader h5 text-center mb-1">
               Hours of Operation:
             </p>
@@ -110,7 +115,7 @@ export const KennettSquarePage = () => (
               <MDBCardImage
                 hover
                 overlay="white-slight"
-                className="rounded mx-auto d-block"
+                className="z-depth-1-half rounded mx-auto d-block"
                 src={kennettStoreFront}
                 alt="cafe americana storefront photo"
               />

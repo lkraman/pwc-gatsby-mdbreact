@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  MDBContainer,
   MDBCarousel,
   MDBCarouselInner,
   MDBCarouselItem,
@@ -12,7 +13,13 @@ import kennett_cafe from "../images/kennett_cafe.jpg";
 
 const CarouselPage = () => {
   return (
-    <MDBCarousel activeItem={1} length={3} className="z-depth-1 w-100">
+    <MDBCarousel
+      activeItem={1}
+      length={3}
+      showControls={true}
+      showIndicators={true}
+      className="z-depth-1"
+    >
       <MDBCarouselInner>
         <MDBCarouselItem itemId="1">
           <MDBView>

@@ -157,9 +157,6 @@ export const Menu = () => (
               </p>
               <br />
 
-
-
-
               <h2 className="card_title">EGGS BENEDICT</h2>
               <p className="small">
                 (Served on English muffin with home fries)
@@ -184,10 +181,6 @@ export const Menu = () => (
               <p className="menu-desc"> Tomato, spinach, hollandaise sauce </p>
               <br />
 
-
-
-
-              
               <h2 className="card_title">BREAKFAST SANDWICHES</h2>
               <br />
               <span className="float-right font-weight-bold">$3.99</span>

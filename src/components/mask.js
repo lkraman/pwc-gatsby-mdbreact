@@ -6,7 +6,11 @@ import { Link } from "gatsby";
 
 const Intro = ({ children }) => {
   return (
-    <MDBContainer style={{ marginTop: "10vh", marginBottom: "30vh" }}>
+    <MDBContainer
+      style={{ marginTop: "10vh", marginBottom: "35vh" }}
+      className="mask z-depth-0 w-100"
+    >
+      >
       <MDBRow className="justify-content-center">
         <MDBCol md="12" className="white-text text-center">
           <img
@@ -16,6 +20,8 @@ const Intro = ({ children }) => {
             alt=""
           />
           <hr className="hr-light my-3 w-75" />
+          <br />
+          <br />
           <MDBRow className="justify-content-center">
             <MDBCol md="3">
               <Link to="/fullmenu">

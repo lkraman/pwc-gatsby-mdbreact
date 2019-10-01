@@ -17,7 +17,10 @@ import {
 export const FullMenuPage = () => (
   <Layout pageInfo={{ pageName: "fullmenu" }}>
     <SEO title="Cafe Americana Kennett Square Menu" />
-    <h2 className="menu-header text-center">Our Menu</h2>
+    <h2 className="menuHeader h1-responsive font-weight-bold text-center my-5">
+      Our Menu
+    </h2>
+
     <p className="small text-center">
       (Prices subject to change. *Consuming raw or undercooked meats, poultry,
       seafood, shellfish, or eggs may increase your risk of foodborne illness,
@@ -113,7 +116,7 @@ export const FullMenuPage = () => (
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
-              <h2 className="card_title font-weight-bold">OMELETTES</h2>
+              <h3 className="card_title font-weight-bold">OMELETTES</h3>
               <p className="small">
                 (Served with home fries and toast or English muffin)
               </p>
@@ -134,9 +137,9 @@ export const FullMenuPage = () => (
                 {" "}
                 Choose as many as you like from cheese, meat, and veggies{" "}
               </p>
-              <h2 className="card_title font-weight-bold">
+              <h3 className="card_title font-weight-bold">
                 BREAKFAST SANDWICHES
-              </h2>
+              </h3>
               <br />
               <span className="float-right font-weight-bold">$3.99</span>
               <h6 className="menu-item">Any Style Eggs* </h6>
@@ -146,7 +149,7 @@ export const FullMenuPage = () => (
                 Add cheese $1.00 | Add breakfast meat $1.00{" "}
               </p>
               <br />
-              <h2 className="card_title font-weight-bold">COMFORT FOOD</h2>
+              <h3 className="card_title font-weight-bold">COMFORT FOOD</h3>
               <br />
               <span className="float-right font-weight-bold">$6.99</span>
               <h6 className="menu-item">Cream Chipped Beef </h6>
@@ -155,7 +158,7 @@ export const FullMenuPage = () => (
               <h6 className="menu-item">Biscuits and Gravy </h6>
               <p className="menu-desc">Served with home fries</p>
               <br />
-              <h2 className="card_title font-weight-bold">BREAKFAST SIDES</h2>
+              <h3 className="card_title font-weight-bold">BREAKFAST SIDES</h3>
               <br />
               <span className="float-right font-weight-bold">$1.39</span>
               <h6 className="menu-item">One Egg</h6>
@@ -192,7 +195,7 @@ export const FullMenuPage = () => (
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
-              <h2 className="card_title font-weight-bold">EGGS BENEDICT</h2>
+              <h3 className="card_title font-weight-bold">EGGS BENEDICT</h3>
               <p className="small">
                 (Served on English muffin with home fries)
               </p>
@@ -214,9 +217,9 @@ export const FullMenuPage = () => (
               <span className="float-right font-weight-bold">$9.99</span>
               <h6 className="menu-item">Florentine</h6>
               <p className="menu-desc"> Tomato, spinach, hollandaise sauce </p>
-              <h2 className="card_title font-weight-bold">
+              <h3 className="card_title font-weight-bold">
                 PANCAKES & FRENCH TOAST
-              </h2>
+              </h3>
               <br />
 
               <h6 className="menu-item">Pancakes</h6>
@@ -257,9 +260,9 @@ export const FullMenuPage = () => (
                 Add any of the following: Bananas, Blueberries, Straw­berries,
                 Whipped Cream, Nutello, Peanut Butter, Caramel, Chocolate Chips
               </p>
-              <h2 className="card_title font-weight-bold">
+              <h3 className="card_title font-weight-bold">
                 BREADS | CHEESES | VEGGIES | MEATS
-              </h2>
+              </h3>
               <br />
 
               <h6 className="menu-item">Breads</h6>
@@ -293,7 +296,7 @@ export const FullMenuPage = () => (
 
     {/* -------lunch-------------- */}
     <hr />
-    <h3 className="menupage-links text-center" id="appetizers">
+    <h3 className="menupage-links text-center" id="lunch">
       LUNCH
     </h3>
 
@@ -302,7 +305,7 @@ export const FullMenuPage = () => (
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
-              <h2 className="card_title font-weight-bold">SOUP & SALADS</h2>
+              <h3 className="card_title font-weight-bold">SOUP & SALADS</h3>
 
               <p className="small">
                 Dressings: Avocado, Blue Cheese, Thousand Island, Italian,
@@ -350,9 +353,9 @@ export const FullMenuPage = () => (
               <span className="float-right font-weight-bold">$5.25</span>
               <h6 className="menu-item">Onion Soup</h6>
               <br />
-              <h2 className="card_title font-weight-bold">
+              <h3 className="card_title font-weight-bold">
                 TACOS | QUESADILLAS | AREPAS
-              </h2>
+              </h3>
               <br />
               <h4 className="card_title font-weight-bold">TACOS:</h4>
               <p className="small">
@@ -424,7 +427,7 @@ export const FullMenuPage = () => (
                 patience.
               </p>
               <br />
-              <h2 className="card_title font-weight-bold">WRAPS</h2>
+              <h3 className="card_title font-weight-bold">WRAPS</h3>
               <p className="small">
                 (Your choice of plain, spinach or tomato wrap. Served with
                 chips. Substitute Fries or Onion Rings add $1.00)
@@ -461,7 +464,7 @@ export const FullMenuPage = () => (
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
-              <h2 className="card_title font-weight-bold">FROM THE GRILL</h2>
+              <h3 className="card_title font-weight-bold">FROM THE GRILL</h3>
               <p className="small">
                 (Served with chips. Substitute Fries or Onion Rings add $1.00)
               </p>
@@ -508,7 +511,7 @@ export const FullMenuPage = () => (
                 Extras: Add Veggies $.75 each | Meat $1.00 | Dressing $.50
               </p>
               <br />
-              <h2 className="card_title font-weight-bold">COLD SANDWICHES</h2>
+              <h3 className="card_title font-weight-bold">COLD SANDWICHES</h3>
               <p className="small">
                 (Served with chips. Substitute Fries or Onion Rings add $1.00)
               </p>
@@ -540,9 +543,9 @@ export const FullMenuPage = () => (
                 on rye bread
               </p>
               <br />
-              <h2 className="card_title font-weight-bold">
+              <h3 className="card_title font-weight-bold">
                 HANDMADE ANGUS BEEF BURGERS*
-              </h2>
+              </h3>
               <p className="small">
                 (All burgers are cooked to order and served with lettuce, tomato
                 and row onion on a brioche bun. Served with chips Substitute
@@ -602,7 +605,7 @@ export const FullMenuPage = () => (
     </MDBRow>
     {/* /*--------DInner---------------*/}
     <hr />
-    <h3 className="menupage-links text-center" id="appetizers">
+    <h3 className="menupage-links text-center" id="dinner">
       DINNER
     </h3>
     <MDBRow className="d-flex p-2 justify-content-center">
@@ -716,7 +719,7 @@ export const FullMenuPage = () => (
 
     {/* /*--------kids menu----------------*/}
     <hr />
-    <h3 className="menupage-links text-center" id="appetizers">
+    <h3 className="menupage-links text-center" id="kids-menu">
       KIDS MENU
     </h3>
     <MDBRow className="d-flex p-2 justify-content-center">
@@ -769,9 +772,13 @@ export const FullMenuPage = () => (
       </div>
     </MDBRow>
 
+    <ScrollToTop showUnder={160}>
+      <MDBIcon far icon="arrow-alt-circle-up" />
+    </ScrollToTop>
+
     {/* /*--------kids menu----------------*/}
     <hr />
-    <h3 className="menupage-links text-center" id="appetizers">
+    <h3 className="menupage-links text-center" id="specials">
       SPECIALS
     </h3>
     <div className="d-flex w-100 p-2 text-center">
@@ -785,10 +792,6 @@ export const FullMenuPage = () => (
         </MDBCard>
       </MDBCol>
     </div>
-
-    <ScrollToTop showUnder={160}>
-      <MDBIcon far icon="arrow-alt-circle-up" />
-    </ScrollToTop>
   </Layout>
 );
 

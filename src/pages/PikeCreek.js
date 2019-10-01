@@ -23,7 +23,7 @@ export const PikeCreekPage = () => (
           Contact us
         </h2>
         <p
-          className="contactText text-center w-responsive mx-auto"
+          className="contactinfo text-center w-responsive mx-auto"
           style={{ fontSize: "1rem" }}
         >
           Coming Soon to a new location conveniently located in Pike Creek,
@@ -39,7 +39,7 @@ export const PikeCreekPage = () => (
               style={{ height: "400px" }}
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.545481615192!2d-75.73343248462156!3d39.83960717943639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf57a5bbc1e46eb63!2sCafe%20Americana!5e0!3m2!1sen!2sus!4v1568214217767!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.050018643969!2d-75.69072238405892!3d39.73852727944977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c701caba9296c3%3A0xffae73484237b821!2sLinden%20Hill%20Station!5e0!3m2!1sen!2sus!4v1569947087153!5m2!1sen!2sus"
                 title="Cafe Americana Map"
                 width="100%"
                 height="100%"
@@ -59,14 +59,14 @@ export const PikeCreekPage = () => (
                   <MDBIcon icon="map-marker-alt" />
                 </MDBBtn>
                 <p
+                  className="contactinfo"
                   style={{
-                    fontStyle: "Roboto",
                     fontSize: "1rem"
                   }}
                 >
                   4500 New Linden Hill Rd
                 </p>
-                <p className="mb-md-0" style={{ fontSize: "1rem" }}>
+                <p className="contactinfo mb-md-0" style={{ fontSize: "1rem" }}>
                   Wilmington, DE 19808
                 </p>
               </MDBCol>
@@ -80,7 +80,9 @@ export const PikeCreekPage = () => (
                   <MDBIcon icon="phone" />
                 </MDBBtn>
 
-                <p style={{ fontSize: "1rem" }}>(302) 543-7363</p>
+                <p className="contactinfo mb-md-0" style={{ fontSize: "1rem" }}>
+                  (302) 543-7363
+                </p>
               </MDBCol>
               <MDBCol md="4">
                 <MDBBtn
@@ -92,7 +94,10 @@ export const PikeCreekPage = () => (
                   <MDBIcon icon="envelope" />
                 </MDBBtn>
 
-                <p className="mb-md-0" style={{ fontSize: "1rem" }}>
+                <p
+                  className=" contactinfo mb-md-0"
+                  style={{ fontSize: "1rem" }}
+                >
                   <a className="nav-link" href="mailto:CMCK@cafeamericana.net">
                     CMCK@cafeamericana.net
                   </a>
@@ -112,7 +117,7 @@ export const PikeCreekPage = () => (
               <MDBCardImage
                 hover
                 overlay="white-slight"
-                className="rounded mx-auto d-block"
+                className="z-depth-1-half rounded mx-auto d-block"
                 src={pikeCreekStoreFront}
                 alt="cafe americana storefront photo"
               />

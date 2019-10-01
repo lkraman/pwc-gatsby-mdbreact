@@ -1,5 +1,12 @@
 import React from "react";
-import { MDBContainer, MDBBtn, MDBRow, MDBCol, MDBIcon } from "mdbreact";
+import {
+  MDBContainer,
+  MDBTooltip,
+  MDBBtn,
+  MDBRow,
+  MDBCol,
+  MDBIcon
+} from "mdbreact";
 import cafeAmericana_horiz_white from "../images/cafeAmericana_horiz_white.svg";
 import "./layout.css";
 import { Link } from "gatsby";
@@ -34,7 +41,9 @@ const Intro = ({ children }) => {
               {" "}
               {/* <a href="https://example.com" target="_blank" rel="noopener noreferrer"> */}
               <MDBBtn outline color="light-green" className="mb-5">
-                <MDBIcon icon="laptop" className="mr-3"></MDBIcon> Takeout
+                <MDBIcon icon="laptop" className="mr-3"></MDBIcon> Takeout{" "}
+                <br />
+                <span className="small">Coming soon!</span>
               </MDBBtn>
               {/* </a> */}
             </MDBCol>

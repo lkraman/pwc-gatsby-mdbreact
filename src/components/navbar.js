@@ -49,7 +49,7 @@ class NavPage extends Component {
           <MDBNavbarNav left>
             <CustomNavLink to="/">Home</CustomNavLink>
             <CustomNavLink to="/fullmenu">Menu</CustomNavLink>
-            <CustomNavLink to="#!">Takeout</CustomNavLink>
+            {/* <CustomNavLink to="#!">Takeout</CustomNavLink> */}
 
             <MDBNavItem>
               <MDBDropdown>

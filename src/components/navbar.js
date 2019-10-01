@@ -33,10 +33,10 @@ class NavPage extends Component {
         color="mdb-color"
         opacity=".50"
         dark
-        expand="md"
+        expand="navbar navbar-expand-lg"
         style={{ marginBottom: ".1rem" }}
       >
-        <Link to="/" style={{ marginRight: ".5rem" }}>
+        <Link to="/" style={{ marginLeft: "1rem" }}>
           <img
             src={CafeAmericana_logo_PAN_black1}
             type="image/svg"
@@ -45,7 +45,7 @@ class NavPage extends Component {
           />
         </Link>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
-        <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
+        <MDBCollapse id="navbarCollapse5" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
             <CustomNavLink to="/">Home</CustomNavLink>
             <CustomNavLink to="/fullmenu">Menu</CustomNavLink>
@@ -68,14 +68,14 @@ class NavPage extends Component {
               </MDBDropdown>
             </MDBNavItem>
           </MDBNavbarNav>
-          <MDBNavbarNav right>
+          <MDBNavbarNav right style={{ marginRight: "1rem" }}>
             <MDBRow className="navbar-d-flex">
               <div className="text-right">
                 <ul className="navbar-list-unstyled list-inline">
                   <li className="list-inline-item">
                     <a
                       href="https://www.facebook.com/camckonly/"
-                      className="nav-bar-social-media facebook-ic mr-3 white-text"
+                      className="nav-bar-social-media facebook-ic mr-4 white-text"
                       role="button"
                     >
                       <i className="fab fa-lg fa-facebook"></i>
@@ -84,7 +84,7 @@ class NavPage extends Component {
                   <li className="list-inline-item">
                     <a
                       href="https://www.g.page/cafeamericana/review"
-                      className="instagram-ic mr-3 white-text"
+                      className="instagram-ic mr-4 white-text"
                       role="button"
                     >
                       <i className="fab fa-lg fa-instagram"></i>
@@ -93,7 +93,7 @@ class NavPage extends Component {
                   <li className="list-inline-item">
                     <a
                       href="https://www.g.page/cafeamericana/review"
-                      className="gplus-ic mr-3 white-text"
+                      className="gplus-ic mr-4 white-text"
                       role="button"
                     >
                       <i className="fab fa-lg fa-google-plus-g"></i>

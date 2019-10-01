@@ -5,14 +5,7 @@ import Footer from "../components/footer";
 import "./layout.css";
 
 const Layout = ({ children }) => (
-  <div
-    style={{
-      height: "100%",
-
-      display: "flex",
-      flexDirection: "column"
-    }}
-  >
+  <>
     <Navbar />
     <main
       style={{
@@ -23,7 +16,7 @@ const Layout = ({ children }) => (
     </main>
 
     <Footer />
-  </div>
+  </>
 );
 
 Layout.propTypes = {

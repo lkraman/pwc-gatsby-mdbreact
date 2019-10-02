@@ -14,7 +14,7 @@ import { Link } from "gatsby";
 const Intro = ({ children }) => {
   return (
     <MDBContainer
-      style={{ marginTop: "10vh", marginBottom: "35vh" }}
+      style={{ marginTop: "10vh", marginBottom: "30vh" }}
       className="mask z-depth-0 w-100"
     >
       >

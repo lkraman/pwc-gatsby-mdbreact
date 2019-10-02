@@ -50,55 +50,46 @@ export const PikeCreekPage = () => (
             <br />
             <MDBRow className="text-center">
               <MDBCol md="4">
-                <MDBBtn
-                  tag="a"
-                  floating
-                  color="green"
-                  className="light-green darken-3"
-                >
+                <MDBBtn tag="a" floating>
                   <MDBIcon icon="map-marker-alt" />
                 </MDBBtn>
                 <p
                   className="contactinfo"
                   style={{
-                    fontSize: "1rem"
+                    fontSize: ".8rem"
                   }}
                 >
-                  4500 New Linden Hill Rd
-                </p>
-                <p className="contactinfo mb-md-0" style={{ fontSize: "1rem" }}>
-                  Wilmington, DE 19808
+                  4500 New Linden Hill Rd.
+                  <br />
+                  Wilmington, De 19808
                 </p>
               </MDBCol>
               <MDBCol md="4">
-                <MDBBtn
-                  tag="a"
-                  floating
-                  color="green"
-                  className="light-green darken-3"
-                >
+                <MDBBtn tag="a" floating>
                   <MDBIcon icon="phone" />
                 </MDBBtn>
 
-                <p className="contactinfo mb-md-0" style={{ fontSize: "1rem" }}>
+                <p
+                  className="contactinfo mb-md-0"
+                  style={{ fontSize: ".8rem" }}
+                >
                   (302) 543-7363
                 </p>
               </MDBCol>
               <MDBCol md="4">
-                <MDBBtn
-                  tag="a"
-                  floating
-                  color="green"
-                  className="light-green darken-3"
-                >
+                <MDBBtn className="button" tag="a" floating color="green">
                   <MDBIcon icon="envelope" />
                 </MDBBtn>
 
                 <p
                   className=" contactinfo mb-md-0"
-                  style={{ fontSize: "1rem" }}
+                  style={{ fontSize: ".8rem" }}
                 >
-                  <a className="nav-link" href="mailto:CMCK@cafeamericana.net">
+                  <a
+                    className="nav-link"
+                    href="mailto:CMCK@cafeamericana.net"
+                    style={{ fontSize: ".8rem", wordWrap: "break-word" }}
+                  >
                     CMCK@cafeamericana.net
                   </a>
                 </p>

@@ -239,7 +239,7 @@
 
 body {
   color: #272727;
-  font-family: "Architects Daughter", cursive;
+  font-family: "Lobster", cursive;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
@@ -252,15 +252,15 @@ body {
 }
 
 .h1 {
-  font-family: "Architects Daughter", cursive;
+  font-family: "Lobster", cursive;
 }
 
 .contactHeader {
-  font-family: "Architects Daughter", cursive;
+  font-family: "Lobster", cursive;
 }
 
 .menu-header {
-  font-family: "Architects Daughter", cursive;
+  font-family: "Lobster", cursive;
 }
 
 section.my-5 {
@@ -299,7 +299,7 @@ section.my-5 {
 }
 
 .card_title {
-  font-family: "Architects Daughter", cursive;
+  font-family: "Lobster", cursive;
 }
 
 @media (min-width: 40rem) {
@@ -399,7 +399,7 @@ a.nav-link {
 }
 
 .nav-link:active {
-  color: #8bc34a;
+  color: #7f9c52;
 }
 
 .a.nav-link:hover {
@@ -422,16 +422,6 @@ a.nav-link {
   background-color: #ffffff;
 }
 
-.light-green .darken-3 {
-  background-color: #7f9c52;
-}
-
-.Ripple-parent.btn-outline-default {
-  border: 2px solid #7f9c52;
-  background-color: transparent;
-  color: #7f9c52;
-}
-
 p.grey-text {
   font-family: "Roboto";
 }
@@ -442,35 +432,17 @@ p.h4-responsive {
 }
 
 p.hoursPhotoHeader {
-  font-family: "Architects Daughter", cursive;
+  font-family: "Lobster", cursive;
 }
 
 h4.card-title {
   font-size: 2.5rem;
 }
 
-button.btn-outline-light-green {
-  border: 2px solid #7f9c52;
-  background-color: transparent;
-  color: #7f9c52;
-}
-
 button.btn-danger {
   border: 2px solid #f44336;
   background-color: transparent;
   color: #f44336;
-}
-
-button.btn-light-green {
-  border: 2px solid #7f9c52;
-  background-color: transparent;
-  color: #7f9c52;
-}
-
-button.btn-outline-light-green {
-  border: 2px solid #7f9c52;
-  background-color: white;
-  color: #7f9c52;
 }
 
 button.btn-brown {
@@ -502,11 +474,6 @@ a.btn-green.btn {
   color: #7f9c52;
 }
 
-.btn-default:hover {
-  background-color: transparent;
-  color: #7f9c52;
-}
-
 .ml-1.text-center {
   color: #7f9c52;
 }
@@ -517,4 +484,16 @@ a.btn-green.btn {
 
 a.contactinfo:active {
   color: #7f9c52;
+}
+
+a.btn {
+  background-color: #7f9c52 !important;
+}
+
+a.btn:active {
+  background-color: #718b49 !important;
+}
+
+i {
+  color: #fff;
 }

@@ -68,7 +68,6 @@ export const FullMenuPage = () => (
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
-              <br />
               <span className="float-right font-weight-bold">$11.99</span>
               <h6 className="menu-item">American Nachos</h6>
               <p className="menu-desc">
@@ -112,7 +111,7 @@ export const FullMenuPage = () => (
     </h3>
 
     <MDBRow className="d-flex p-2 justify-content-center">
-      <div className="d-flex w-50 p-2 text-center">
+      <div className="d-flex w-70 p-2 text-center">
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
@@ -186,15 +185,7 @@ export const FullMenuPage = () => (
                 $2.99
               </p>
               <br />
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-      </div>
 
-      <div className="d-flex w-50 p-2 text-center">
-        <MDBCol>
-          <MDBCard>
-            <MDBCardBody>
               <h3 className="card_title font-weight-bold">EGGS BENEDICT</h3>
               <p className="small">
                 (Served on English muffin with home fries)
@@ -301,7 +292,7 @@ export const FullMenuPage = () => (
     </h3>
 
     <MDBRow className="d-flex p-2 justify-content-center">
-      <div className="d-flex w-50 p-2 text-center">
+      <div className="d-flex w-70 p-2 text-center">
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
@@ -359,8 +350,8 @@ export const FullMenuPage = () => (
               <br />
               <h4 className="card_title font-weight-bold">TACOS:</h4>
               <p className="small">
-                Three Street style locos served with shredded cabbage, Pico de
-                Gallo, cotijo cheese and siracha oioli Served on your choice of
+                Three Street style tacos served with shredded cabbage, pico de
+                gallo, cotijo cheese and siracha aioli Served on your choice of
                 corn or flour tortillas
               </p>
               <span className="float-right font-weight-bold">$7.99</span>
@@ -381,7 +372,7 @@ export const FullMenuPage = () => (
                 Tomato, onion and cheese on your choice of plain, spinach or
                 tomato tortilla. Served with pico de gallo and sour cream
               </p>
-              <p>Add a side Guacamole $2.00</p>
+              <p>Add a side guacamole $2.00</p>
               <span className="float-right font-weight-bold">$7.99</span>
               <h6 className="menu-item">Cheese </h6>
 
@@ -398,7 +389,7 @@ export const FullMenuPage = () => (
               <h4 className="card_title font-weight-bold">AREPAS:</h4>
 
               <p className="small">
-                A Venezuelan style corn polly that can be fried or grilled•• and
+                A Venezuelan style corn patty that can be fried or grilled•• and
                 filled with any combination of ingredients. We suggest the
                 following:
               </p>
@@ -455,15 +446,7 @@ export const FullMenuPage = () => (
               <span className="float-right font-weight-bold">$8.99</span>
               <h6 className="menu-item">Veggie</h6>
               <p className="menu-desc"></p>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-      </div>
 
-      <div className="d-flex w-50 p-2 text-center">
-        <MDBCol>
-          <MDBCard>
-            <MDBCardBody>
               <h3 className="card_title font-weight-bold">FROM THE GRILL</h3>
               <p className="small">
                 (Served with chips. Substitute Fries or Onion Rings add $1.00)
@@ -608,8 +591,9 @@ export const FullMenuPage = () => (
     <h3 className="menupage-links text-center" id="dinner">
       DINNER
     </h3>
+
     <MDBRow className="d-flex p-2 justify-content-center">
-      <div className="d-flex w-50 p-2 text-center">
+      <div className="d-flex w-70 p-2 text-center">
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
@@ -660,15 +644,7 @@ export const FullMenuPage = () => (
                 Spaghetti full of bacon flavor and smothered in a cheesy egg
                 sauce
               </p>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-      </div>
 
-      <div className="d-flex w-50 p-2 text-center">
-        <MDBCol>
-          <MDBCard>
-            <MDBCardBody>
               <br />
               <h3 className="card_title font-weight-bold">STEAKS</h3>
               <p className="small">(Served with a choice of two sides)</p>
@@ -723,7 +699,7 @@ export const FullMenuPage = () => (
       KIDS MENU
     </h3>
     <MDBRow className="d-flex p-2 justify-content-center">
-      <div className="d-flex w-50 p-2 text-center">
+      <div className="d-flex w-70 p-2 text-center">
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
@@ -745,15 +721,7 @@ export const FullMenuPage = () => (
               <h6 className="menu-item">Kids Side Meat</h6>
               <span className="float-right font-weight-bold">$3.99</span>
               <h6 className="menu-item">Cereal</h6>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-      </div>
 
-      <div className="d-flex w-50 p-2 text-center">
-        <MDBCol>
-          <MDBCard>
-            <MDBCardBody>
               <br />
               <h3 className="card_title font-weight-bold">LUNCH</h3>
               <br />
@@ -781,13 +749,13 @@ export const FullMenuPage = () => (
     <h3 className="menupage-links text-center" id="specials">
       SPECIALS
     </h3>
-    <div className="d-flex w-100 p-2 text-center">
+    <div className="d-flex w-70 p-2 text-center">
       <MDBCol>
         <MDBCard>
           <MDBCardBody>
-            {/* <span className="float-right font-weight-bold">$0.00</span>
-            <h6 className="menu-item">Current Special Here</h6>
-            <p className="menu-desc">Grilled to your preferred temperature</p> */}
+            {/* <span className="float-right font-weight-bold">$0.00</span> */}
+            <h6 className="menu-item">Coming Soon!</h6>
+            {/* <p className="menu-desc">Grilled to your preferred temperature</p> */}
           </MDBCardBody>
         </MDBCard>
       </MDBCol>

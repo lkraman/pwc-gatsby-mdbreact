@@ -24,8 +24,8 @@ module.exports = {
         name: `Cafe Americana`,
         short_name: `Cafe Americana`,
         start_url: `/`,
-        background_color: `#0c457d`,
-        theme_color: `#8bc34a`,
+        background_color: `#f5efe1`,
+        theme_color: `#7f9c52`,
         display: `standalone`,
         icon: `${__dirname}/src/images/CafeAmericana_logo_PAN_black1.png` // This path is relative to the root of the site.
       }

@@ -23,7 +23,7 @@ export const KennettSquarePage = () => (
         </h2>
         <p
           className="contactinfo text-center w-responsive mx-auto"
-          style={{ fontSize: "1rem" }}
+          style={{ fontSize: ".8rem" }}
         >
           Conveniently located in Kennett Square, PA with ample, well-lit
           parking, come join us for your next home-cooked meal!
@@ -48,55 +48,46 @@ export const KennettSquarePage = () => (
             <br />
             <MDBRow className="text-center">
               <MDBCol md="4">
-                <MDBBtn
-                  tag="a"
-                  floating
-                  color="green"
-                  className="light-green darken-3"
-                >
+                <MDBBtn tag="a" floating color="#718b49">
                   <MDBIcon icon="map-marker-alt" />
                 </MDBBtn>
                 <p
                   className="contactinfo"
                   style={{
-                    fontSize: "1rem"
+                    fontSize: ".8rem"
                   }}
                 >
-                  4500 New Linden Hill Rd
-                </p>
-                <p className="contactinfo mb-md-0" style={{ fontSize: "1rem" }}>
-                  Wilmington, DE 19808
+                  350 Scarlet Rd.
+                  <br />
+                  Kennett Square, Pa 19348
                 </p>
               </MDBCol>
               <MDBCol md="4">
-                <MDBBtn
-                  tag="a"
-                  floating
-                  color="green"
-                  className="light-green darken-3"
-                >
+                <MDBBtn tag="a" floating color="#718b49">
                   <MDBIcon icon="phone" />
                 </MDBBtn>
 
-                <p className="contactinfo mb-md-0" style={{ fontSize: "1rem" }}>
-                  (302) 543-7363
+                <p
+                  className="contactinfo mb-md-0"
+                  style={{ fontSize: ".8rem" }}
+                >
+                  (484) 731-4123
                 </p>
               </MDBCol>
               <MDBCol md="4">
-                <MDBBtn
-                  tag="a"
-                  floating
-                  color="green"
-                  className="light-green darken-3"
-                >
-                  <MDBIcon icon="envelope" />
+                <MDBBtn className="button" tag="a" floating color="#718b49">
+                  <MDBIcon icon="envelope" floating color="#fff" />
                 </MDBBtn>
 
                 <p
                   className=" contactinfo mb-md-0"
-                  style={{ fontSize: "1rem" }}
+                  style={{ fontSize: ".8rem" }}
                 >
-                  <a className="nav-link" href="mailto:CMCK@cafeamericana.net">
+                  <a
+                    className="nav-link"
+                    href="mailto:CMCK@cafeamericana.net"
+                    style={{ fontSize: ".8rem", wordWrap: "break-word" }}
+                  >
                     CMCK@cafeamericana.net
                   </a>
                 </p>

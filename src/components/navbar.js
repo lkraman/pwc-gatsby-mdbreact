@@ -57,10 +57,10 @@ class NavPage extends Component {
                   <div className="d-none d-md-inline">Locations</div>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem href="/kennettsquare">
+                  <MDBDropdownItem href="/kennettsquare" className="white-text">
                     Kennett Square, PA
                   </MDBDropdownItem>
-                  <MDBDropdownItem href="/pikecreek">
+                  <MDBDropdownItem href="/pikecreek" className="white-text">
                     Pike Creek, DE <br />
                     (coming soon!)
                   </MDBDropdownItem>
@@ -68,8 +68,8 @@ class NavPage extends Component {
               </MDBDropdown>
             </MDBNavItem>
           </MDBNavbarNav>
-          <MDBNavbarNav right style={{ marginRight: "1rem" }}>
-            <MDBRow className="navbar-d-flex">
+          <MDBNavbarNav float right style={{ marginRight: "2rem" }}>
+            <MDBRow right style={{ marginLeft: "1rem" }}>
               <div className="text-right">
                 <ul className="navbar-list-unstyled list-inline">
                   <li className="list-inline-item">

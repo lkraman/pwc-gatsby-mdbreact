@@ -497,3 +497,18 @@ a.btn:active {
 i {
   color: #fff;
 }
+
+.mask-button {
+  background-color: transparent !important;
+  color: #7f9c52;
+  border: 2px solid #7f9c52;
+}
+
+.white-text:active {
+  background-color: #fff !important;
+  color: #525d75 !important;
+}
+
+.white-text {
+  background-color: #525d75 !important;
+}

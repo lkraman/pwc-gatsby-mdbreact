@@ -693,6 +693,10 @@ export const FullMenuPage = () => (
       </div>
     </MDBRow>
 
+    <ScrollToTop showUnder={160}>
+      <MDBIcon far icon="arrow-alt-circle-up" />
+    </ScrollToTop>
+
     {/* /*--------kids menu----------------*/}
     <hr />
     <h3 className="menupage-links text-center" id="kids-menu">

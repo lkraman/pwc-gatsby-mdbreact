@@ -16,8 +16,8 @@ const CarouselPage = () => {
     <MDBCarousel
       activeItem={1}
       length={3}
-      showControls={false}
-      showIndicators={true}
+      showControls={true}
+      showIndicators={false}
       className="z-depth-1"
     >
       <MDBCarouselInner>

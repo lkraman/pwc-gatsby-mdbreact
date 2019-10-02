@@ -23,7 +23,7 @@ const Intro = ({ children }) => {
           <img
             src={cafeAmericana_horiz_white}
             type="image/svg"
-            width="50%"
+            width="60%"
             alt=""
           />
           <hr className="hr-light my-3 w-75" />
@@ -32,16 +32,17 @@ const Intro = ({ children }) => {
           <MDBRow className="justify-content-center">
             <MDBCol md="3">
               <Link to="/fullmenu">
-                <MDBBtn outline color="light-green" className="mb-5">
-                  <MDBIcon icon="utensils" className="mr-3"></MDBIcon> View Menu
+                <MDBBtn className="mask-button mb-4 justify-content-center">
+                  <MDBIcon icon="utensils" className=" mr-3"></MDBIcon> View
+                  Menu
                 </MDBBtn>
               </Link>
             </MDBCol>
             <MDBCol md="3">
               {" "}
               {/* <a href="https://example.com" target="_blank" rel="noopener noreferrer"> */}
-              <MDBBtn outline color="light-green" className="mb-5">
-                <MDBIcon icon="laptop" className="mr-3"></MDBIcon> Takeout{" "}
+              <MDBBtn className="mask-button mb-4 justify-content-center">
+                <MDBIcon icon="laptop" className=" mr-3"></MDBIcon> Takeout{" "}
                 <br />
                 <span className="small">Coming soon!</span>
               </MDBBtn>

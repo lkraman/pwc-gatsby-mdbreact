@@ -57,10 +57,16 @@ class NavPage extends Component {
                   <div className="d-none d-md-inline">Locations</div>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem href="/kennettsquare" className="white-text">
+                  <MDBDropdownItem
+                    href="/kennettsquare"
+                    className="navbar-dropdown white-text"
+                  >
                     Kennett Square, PA
                   </MDBDropdownItem>
-                  <MDBDropdownItem href="/pikecreek" className="white-text">
+                  <MDBDropdownItem
+                    href="/pikecreek"
+                    className="navbar-dropdown white-text"
+                  >
                     Pike Creek, DE <br />
                     (coming soon!)
                   </MDBDropdownItem>
@@ -83,7 +89,7 @@ class NavPage extends Component {
                   </li>
                   <li className="list-inline-item">
                     <a
-                      href="https://www.g.page/cafeamericana/review"
+                      href="https://www.instagram.com/cafe_americana/"
                       className="instagram-ic mr-4 white-text"
                       role="button"
                     >

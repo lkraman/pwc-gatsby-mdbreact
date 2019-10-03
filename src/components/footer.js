@@ -22,7 +22,7 @@ const Footer = () => {
           </li>
           <li className="list-inline-item">
             <a
-              href="https://www.g.page/cafeamericana/review"
+              href="https://www.instagram.com/cafe_americana/"
               className="instagram-ic mr-3 white-text"
               role="button"
             >

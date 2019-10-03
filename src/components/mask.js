@@ -18,7 +18,7 @@ const Intro = ({ children }) => {
       className="mask z-depth-0 w-100"
     >
       >
-      <MDBRow className="justify-content-center">
+      <MDBRow className="mask-box justify-content-center">
         <MDBCol md="12" className="white-text text-center">
           <img
             src={cafeAmericana_horiz_white}

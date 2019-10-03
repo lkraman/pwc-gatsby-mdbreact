@@ -591,7 +591,9 @@ export const FullMenuPage = () => (
     <h3 className="menupage-links text-center" id="dinner">
       DINNER
     </h3>
-
+    <ScrollToTop showUnder={160}>
+      <MDBIcon far icon="arrow-alt-circle-up" />
+    </ScrollToTop>
     <MDBRow className="d-flex p-2 justify-content-center">
       <div className="d-flex w-70 p-2 text-center">
         <MDBCol>

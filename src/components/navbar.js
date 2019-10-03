@@ -30,7 +30,6 @@ class NavPage extends Component {
   render() {
     return (
       <MDBNavbar
-        color="mdb-color"
         opacity=".50"
         dark
         expand="navbar navbar-expand-lg"

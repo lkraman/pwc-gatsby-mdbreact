@@ -4,7 +4,6 @@ import { MDBContainer, MDBFooter } from "mdbreact";
 const Footer = () => {
   return (
     <MDBFooter
-      color="mdb-color"
       className="position-relative w-100 p-3"
       expand="md"
       style={{ marginTop: ".1rem" }}

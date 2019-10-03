@@ -20,11 +20,13 @@ export const PikeCreekPage = () => (
     <MDBContainer>
       <section className="my-5">
         <h2 className="contactHeader h1-responsive font-weight-bold text-center my-5">
-          Contact us
+          Contact Us
+          <p className="small text-center">Coming Soon!</p>
         </h2>
+
         <p
           className="contactinfo text-center w-responsive mx-auto"
-          style={{ fontSize: "1rem" }}
+          style={{ fontSize: ".8rem" }}
         >
           Coming Soon to a new location conveniently located in Pike Creek,
           Delaware. Look for us on Limestone Rd. (Route 7) across from Goldey
@@ -77,7 +79,7 @@ export const PikeCreekPage = () => (
                 </p>
               </MDBCol>
               <MDBCol md="4">
-                <MDBBtn className="button" tag="a" floating color="green">
+                <MDBBtn tag="a" floating>
                   <MDBIcon icon="envelope" />
                 </MDBBtn>
 

@@ -19,8 +19,9 @@ export const KennettSquarePage = () => (
     <MDBContainer>
       <section className="my-5">
         <h2 className="contactHeader h1-responsive font-weight-bold text-center my-5">
-          Contact us
+          Contact Us
         </h2>
+
         <p
           className="contactinfo text-center w-responsive mx-auto"
           style={{ fontSize: ".8rem" }}
@@ -48,7 +49,7 @@ export const KennettSquarePage = () => (
             <br />
             <MDBRow className="text-center">
               <MDBCol md="4">
-                <MDBBtn tag="a" floating color="#718b49">
+                <MDBBtn tag="a" floating>
                   <MDBIcon icon="map-marker-alt" />
                 </MDBBtn>
                 <p
@@ -63,7 +64,7 @@ export const KennettSquarePage = () => (
                 </p>
               </MDBCol>
               <MDBCol md="4">
-                <MDBBtn tag="a" floating color="#718b49">
+                <MDBBtn tag="a" floating>
                   <MDBIcon icon="phone" />
                 </MDBBtn>
 
@@ -75,8 +76,8 @@ export const KennettSquarePage = () => (
                 </p>
               </MDBCol>
               <MDBCol md="4">
-                <MDBBtn className="button" tag="a" floating color="#718b49">
-                  <MDBIcon icon="envelope" floating color="#fff" />
+                <MDBBtn tag="a" floating>
+                  <MDBIcon icon="envelope" />
                 </MDBBtn>
 
                 <p

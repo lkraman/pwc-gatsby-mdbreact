@@ -1,14 +1,12 @@
 .navbar.navbar-dark {
-  margin-left: 1rem;
-  margin-right: 1rem;
   min-width: 100vw;
-  background-color: #525d75;
+  background-color: #7f9c52;
   opacity: 0.8;
 }
 
 .page-footer {
   min-width: 100vw;
-  background-color: #525d75;
+  background-color: #7f9c52;
   opacity: 0.8;
 }
 
@@ -240,11 +238,10 @@
 
 body {
   color: #272727;
-  font-family: "Lobster", cursive;
+  font-family: "Farsan ", cursive;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
-  padding: 1rem;
 }
 
 .main {
@@ -253,15 +250,15 @@ body {
 }
 
 .h1 {
-  font-family: "Lobster", cursive;
+  font-family: "Farsan ", cursive;
 }
 
 .contactHeader {
-  font-family: "Lobster", cursive;
+  font-family: "Farsan ", cursive;
 }
 
 .menu-header {
-  font-family: "Lobster", cursive;
+  font-family: "Farsan ", cursive;
 }
 
 section.my-5 {
@@ -300,7 +297,7 @@ section.my-5 {
 }
 
 .card_title {
-  font-family: "Lobster", cursive;
+  font-family: "Farsan ", cursive;
 }
 
 @media (min-width: 40rem) {
@@ -416,18 +413,24 @@ a.nav-link {
 }
 
 a.dropdown-item.navbar-dropdown {
-  background-color: #525d75 !important;
+  background-color: #7f9c52 !important;
   color: #fff;
 }
 
 a.dropdown-item.navbar-dropdown:active {
-  background-color: #525d75 !important;
+  background-color: #7f9c52 !important;
+  border: 2px solid #7f9c52 !important;
   color: #fff;
 }
 
 a.dropdown-item.navbar-dropdown:hover {
-  background-color: #525d75dc !important;
+  background-color: #7f9c52dc !important;
+
   color: #fff;
+}
+
+.dropdown-item.active {
+  border: transparent !important;
 }
 
 p.grey-text {
@@ -440,7 +443,7 @@ p.h4-responsive {
 }
 
 p.hoursPhotoHeader {
-  font-family: "Lobster", cursive;
+  font-family: "Farsan ", cursive;
 }
 
 h4.card-title {
@@ -478,6 +481,11 @@ a.btn-green.btn {
 }
 
 .send-border-color {
+  border: 2px solid #7f9c52;
+  color: #7f9c52;
+}
+
+.send-border-color:active {
   border: 2px solid #7f9c52;
   color: #7f9c52;
 }

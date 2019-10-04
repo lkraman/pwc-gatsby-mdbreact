@@ -587,13 +587,12 @@ export const FullMenuPage = () => (
       </div>
     </MDBRow>
     {/* /*--------DInner---------------*/}
+
     <hr />
     <h3 className="menupage-links text-center" id="dinner">
       DINNER
     </h3>
-    <ScrollToTop showUnder={160}>
-      <MDBIcon far icon="arrow-alt-circle-up" />
-    </ScrollToTop>
+
     <MDBRow className="d-flex p-2 justify-content-center">
       <div className="d-flex w-70 p-2 text-center">
         <MDBCol>
@@ -696,7 +695,7 @@ export const FullMenuPage = () => (
     </MDBRow>
 
     <ScrollToTop showUnder={160}>
-      <MDBIcon far icon="arrow-alt-circle-up" />
+      <MDBIcon far icon="arrow-alt-circle-up" className="scrollToTop" />
     </ScrollToTop>
 
     {/* /*--------kids menu----------------*/}
@@ -745,10 +744,6 @@ export const FullMenuPage = () => (
         </MDBCol>
       </div>
     </MDBRow>
-
-    <ScrollToTop showUnder={160}>
-      <MDBIcon far icon="arrow-alt-circle-up" />
-    </ScrollToTop>
 
     {/* /*--------kids menu----------------*/}
     <hr />

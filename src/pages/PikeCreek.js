@@ -19,14 +19,14 @@ export const PikeCreekPage = () => (
     <SEO title="Cafe Americana Restaurant Pike Creek, De" />
     <MDBContainer>
       <section className="my-5">
-        <h2 className="contactHeader h1-responsive font-weight-bold text-center my-5">
+        <h2 className="contactHeader h1-responsive font-weight-bold text-center my-2">
           Contact Us
-          <p className="small text-center">Coming Soon!</p>
         </h2>
+        <h5 className="text-center">Coming Soon!</h5>
 
         <p
           className="contactinfo text-center w-responsive mx-auto"
-          style={{ fontSize: ".8rem" }}
+          style={{ fontSize: "1em" }}
         >
           Coming Soon to a new location conveniently located in Pike Creek,
           Delaware. Look for us on Limestone Rd. (Route 7) across from Goldey
@@ -58,7 +58,7 @@ export const PikeCreekPage = () => (
                 <p
                   className="contactinfo"
                   style={{
-                    fontSize: ".8rem"
+                    fontSize: "1em"
                   }}
                 >
                   4500 New Linden Hill Rd.
@@ -71,10 +71,7 @@ export const PikeCreekPage = () => (
                   <MDBIcon icon="phone" />
                 </MDBBtn>
 
-                <p
-                  className="contactinfo mb-md-0"
-                  style={{ fontSize: ".8rem" }}
-                >
+                <p className="contactinfo mb-md-0" style={{ fontSize: "1em" }}>
                   (302) 543-7363
                 </p>
               </MDBCol>
@@ -83,14 +80,11 @@ export const PikeCreekPage = () => (
                   <MDBIcon icon="envelope" />
                 </MDBBtn>
 
-                <p
-                  className=" contactinfo mb-md-0"
-                  style={{ fontSize: ".8rem" }}
-                >
+                <p className=" contactinfo mb-md-0" style={{ fontSize: "1em" }}>
                   <a
                     className="nav-link"
                     href="mailto:CMCK@cafeamericana.net"
-                    style={{ fontSize: ".8rem", wordWrap: "break-word" }}
+                    style={{ fontSize: "1em", wordWrap: "break-word" }}
                   >
                     CMCK@cafeamericana.net
                   </a>

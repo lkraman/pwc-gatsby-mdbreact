@@ -6,7 +6,7 @@ const Footer = () => {
     <MDBFooter
       className="position-relative w-100 p-3"
       expand="md"
-      style={{ marginTop: ".1rem" }}
+      style={{ marginTop: "10rem" }}
     >
       <div className="text-center">
         <ul className="navbar-list-unstyled list-inline">

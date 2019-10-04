@@ -24,7 +24,7 @@ export const KennettSquarePage = () => (
 
         <p
           className="contactinfo text-center w-responsive mx-auto"
-          style={{ fontSize: ".8rem" }}
+          style={{ fontSize: "1em" }}
         >
           Conveniently located in Kennett Square, PA with ample, well-lit
           parking, come join us for your next home-cooked meal!
@@ -38,7 +38,7 @@ export const KennettSquarePage = () => (
               style={{ height: "400px" }}
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.545481615192!2d-75.73343248462156!3d39.83960717943639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf57a5bbc1e46eb63!2sCafe%20Americana!5e0!3m2!1sen!2sus!4v1568214217767!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.545481615192!2d-75.73343248462156!3d3913960717943639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf57a5bbc1e46eb63!2sCafe%20Americana!5e0!3m2!1sen!2sus!4v1568214217767!5m2!1sen!2sus"
                 title="Cafe Americana Map"
                 width="100%"
                 height="100%"
@@ -55,7 +55,7 @@ export const KennettSquarePage = () => (
                 <p
                   className="contactinfo"
                   style={{
-                    fontSize: ".8rem"
+                    fontSize: "1em"
                   }}
                 >
                   350 Scarlet Rd.
@@ -68,10 +68,7 @@ export const KennettSquarePage = () => (
                   <MDBIcon icon="phone" />
                 </MDBBtn>
 
-                <p
-                  className="contactinfo mb-md-0"
-                  style={{ fontSize: ".8rem" }}
-                >
+                <p className="contactinfo mb-md-0" style={{ fontSize: "1em" }}>
                   (484) 731-4123
                 </p>
               </MDBCol>
@@ -80,14 +77,11 @@ export const KennettSquarePage = () => (
                   <MDBIcon icon="envelope" />
                 </MDBBtn>
 
-                <p
-                  className=" contactinfo mb-md-0"
-                  style={{ fontSize: ".8rem" }}
-                >
+                <p className=" contactinfo mb-md-0" style={{ fontSize: "1em" }}>
                   <a
                     className="nav-link"
                     href="mailto:CMCK@cafeamericana.net"
-                    style={{ fontSize: ".8rem", wordWrap: "break-word" }}
+                    style={{ fontSize: "1em", wordWrap: "break-word" }}
                   >
                     CMCK@cafeamericana.net
                   </a>

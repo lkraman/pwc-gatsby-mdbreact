@@ -1,5 +1,7 @@
 .navbar.navbar-dark {
   min-width: 100vw;
+  font-size: 1.2rem;
+
   background-color: #7f9c52;
   opacity: 0.8;
 }
@@ -11,7 +13,7 @@
 }
 
 .carousel {
-  position: absolute;
+  position: fixed;
   text-align: center;
   top: 0;
   z-index: -100;
@@ -35,7 +37,9 @@
   "danger": #f44336,
   "custom-color": #c0996b,
   "custom-color": #fae4ca
-); */
+); 
+
+*/
 
 .btn-group-lg .btn-group {
   margin: 0;
@@ -171,24 +175,25 @@
 }
 
 /**********back to top*************/
-/* .scrollToTop {
+
+.scrollToTop {
   text-align: center;
   font-size: 30px;
 
-  color: #fff;
+  color: #c0996b;
   text-decoration: none;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
+  position: relative;
+  bottom: 20px;
+  right: 20px;
   z-index: 9999;
   display: none;
-  opacity: 0.5;
+
   display: block;
   width: 40px;
   height: 40px;
   line-height: 40px;
   text-align: center;
-  font-size: 20px;
+
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -201,9 +206,7 @@
 .scrollToTop:hover,
 .scrollToTop:focus {
   text-decoration: none;
-  opacity: 1;
-  color: #fff;
-} */
+}
 
 @-webkit-keyframes load8 {
   0% {
@@ -236,29 +239,21 @@
   box-sizing: border-box;
 }
 
-body {
-  color: #272727;
-  font-family: "Farsan ", cursive;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0;
-}
-
 .main {
   max-width: 100vh;
   margin: 0 auto;
 }
 
 .h1 {
-  font-family: "Farsan ", cursive;
+  font-family: "EB Garamond", serif;
 }
 
 .contactHeader {
-  font-family: "Farsan ", cursive;
+  font-family: "EB Garamond", serif;
 }
 
 .menu-header {
-  font-family: "Farsan ", cursive;
+  font-family: "EB Garamond", serif;
 }
 
 section.my-5 {
@@ -297,7 +292,7 @@ section.my-5 {
 }
 
 .card_title {
-  font-family: "Farsan ", cursive;
+  font-family: "EB Garamond", serif;
 }
 
 @media (min-width: 40rem) {
@@ -373,22 +368,18 @@ section.my-5 {
   font-family: "Roboto";
 }
 
-.float-right {
-  font-family: futura;
-}
-
 .p-2 {
   list-style: none;
   font-family: "Roboto";
 }
 
 .nav-link {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #212121;
 }
 
 a.nav-link {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #212121;
 }
 
@@ -425,10 +416,18 @@ a.dropdown-item.navbar-dropdown:active {
 
 a.dropdown-item.navbar-dropdown:hover {
   background-color: #7f9c52dc !important;
-
+  border: 0px solid !important;
+  border-radius: 0rem !important;
   color: #fff;
 }
 
+.dropdown-menu {
+  margin: 0rem !important;
+  background-color: transparent !important;
+  background-clip: padding-box !important;
+  border: 0px solid !important;
+  border-radius: 0rem !important;
+}
 .dropdown-item.active {
   border: transparent !important;
 }
@@ -443,7 +442,7 @@ p.h4-responsive {
 }
 
 p.hoursPhotoHeader {
-  font-family: "Farsan ", cursive;
+  font-family: "EB Garamond", serif;
 }
 
 h4.card-title {
@@ -492,6 +491,10 @@ a.btn-green.btn {
 
 .ml-1.text-center {
   color: #7f9c52;
+}
+
+.a {
+  color: #7f9c52 !important;
 }
 
 .contactinfo {

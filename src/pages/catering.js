@@ -1,6 +1,6 @@
 import React from "react";
 import "../components/layout.css";
-import pikeCreekStoreFront from "../images/pikeCreekStoreFront.png";
+
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
@@ -14,9 +14,9 @@ import {
   MDBBtn
 } from "mdbreact";
 
-export const PikeCreekPage = () => (
-  <Layout pageInfo={{ pageName: "pikecreek" }}>
-    <SEO title="Cafe Americana Restaurant Pike Creek, De" />
+export const CateringPage = () => (
+  <Layout pageInfo={{ pageName: "catering" }}>
+    <SEO title="Cafe Americana Restaurant Catering" />
     <MDBContainer>
       <section className="my-5">
         <h2 className="contactHeader h1-responsive font-weight-bold text-center my-2">
@@ -94,33 +94,10 @@ export const PikeCreekPage = () => (
           </MDBCol>
 
           <br />
-
-          <MDBCol md="4">
-            <p className="hoursPhotoHeader h5 text-center mb-1">
-              Hours of Operation:
-            </p>
-            <br />
-            <div className="d-flex flex-column right">
-              <MDBCardImage
-                hover
-                overlay="white-slight"
-                className="z-depth-1-half rounded mx-auto d-block"
-                src={pikeCreekStoreFront}
-                alt="cafe americana storefront photo"
-              />
-              <div className="p-2 col-example text-center">Mon - Sat: TBD</div>
-              <span className="block-example border-right border-dark"></span>
-              <div className="p-2 col-example text-center">Sun: TBD</div>
-              <div className="p-2 col-example text-center">
-                Please visit our FaceBook page for Holiday hours and inclement
-                weather closings.
-              </div>
-            </div>
-          </MDBCol>
         </MDBRow>
       </section>
     </MDBContainer>
   </Layout>
 );
 
-export default PikeCreekPage;
+export default CateringPage;

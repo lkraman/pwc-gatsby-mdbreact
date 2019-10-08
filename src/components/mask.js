@@ -44,7 +44,7 @@ const Intro = ({ children }) => {
               <MDBBtn className="mask-button mb-4 justify-content-center">
                 <MDBIcon icon="laptop" className=" mr-3"></MDBIcon> Takeout{" "}
                 <br />
-                <span className="small">Coming soon!</span>
+                <span className="coming-soon">Coming soon!</span>
               </MDBBtn>
               {/* </a> */}
             </MDBCol>

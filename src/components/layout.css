@@ -152,7 +152,7 @@
 }
 
 .badge-primary {
-  background-color: ##b4ab87;
+  background-color: #b4ab87;
 }
 
 .bg-faded {
@@ -521,7 +521,12 @@ button.mask-button {
   background-color: transparent !important;
   border: 2px solid #9cab91;
   color: #9cab91;
-  font-family: "Roboto";
+  font-family: "EB Garamond", serif;
+}
+
+span.coming-soon {
+  font-family: "EB Garamond", serif;
+  font-size: 0.6rem;
 }
 
 button.mask-button:hover {

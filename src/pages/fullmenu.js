@@ -110,7 +110,7 @@ export const FullMenuPage = () => (
       BREAKFAST
     </h3>
     <MDBRow className="d-flex p-2 justify-content-center">
-      <div className="d-flex w-80 p-2 text-center">
+      <div className="d-flex w-70 p-2 text-center">
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
@@ -749,17 +749,19 @@ export const FullMenuPage = () => (
     <h3 className="menupage-links text-center" id="specials">
       SPECIALS
     </h3>
-    <div className="d-flex w-70 p-2 text-center">
-      <MDBCol>
-        <MDBCard>
-          <MDBCardBody>
-            {/* <span className="float-right font-weight-bold">$0.00</span> */}
-            <h6 className="menu-item">Coming Soon!</h6>
-            {/* <p className="menu-desc">Grilled to your preferred temperature</p> */}
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-    </div>
+    <MDBRow className="d-flex p-2 justify-content-center">
+      <div className="d-flex w-80 p-2 text-center">
+        <MDBCol>
+          <MDBCard>
+            <MDBCardBody>
+              {/* <span className="float-right font-weight-bold">$0.00</span> */}
+              <h6 className="menu-item">Coming Soon!</h6>
+              {/* <p className="menu-desc">Grilled to your preferred temperature</p> */}
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+      </div>
+    </MDBRow>
   </Layout>
 );
 

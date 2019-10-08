@@ -29,8 +29,8 @@ export const PikeCreekPage = () => (
           style={{ fontSize: "1em" }}
         >
           Coming Soon to a new location conveniently located in Pike Creek,
-          Delaware. Look for us on Limestone Rd. (Route 7) across from Goldey
-          Beacon College within the New Linden Hill Shoppes.
+          Delaware. Look for us on Limestone Rd. (Route 7) across from
+          Goldey-Beacom College within the New Linden Hill Shoppes.
         </p>
         <br />
         <MDBRow>

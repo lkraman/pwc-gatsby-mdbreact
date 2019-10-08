@@ -368,6 +368,10 @@ section.my-5 {
   font-family: "Roboto";
 }
 
+b {
+  font-weight: bold;
+}
+
 .p-2 {
   list-style: none;
   font-family: "Roboto";

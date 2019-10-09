@@ -23,7 +23,7 @@ export const KennettSquarePage = () => (
         </h2>
 
         <p
-          className="contactinfo text-center w-responsive mx-auto"
+          className="contactinfo lead grey-text w-responsive text-center mx-auto mb-5"
           style={{ fontSize: "1em" }}
         >
           Conveniently located in Kennett Square, PA with ample, well-lit

@@ -1,9 +1,13 @@
 .navbar.navbar-dark {
   min-width: 100vw;
   font-size: 1.2rem;
-
   background-color: #b4ab87;
   opacity: 0.8;
+}
+
+.nav-link {
+  background-color: transparent !important;
+  cursor: pointer;
 }
 
 .page-footer {
@@ -179,7 +183,6 @@
 .scrollToTop {
   text-align: center;
   font-size: 30px;
-
   color: #9cab91;
   text-decoration: none;
   position: relative;
@@ -307,6 +310,14 @@ section.my-5 {
   }
 }
 
+p.lead {
+  color: #787878 !important;
+}
+
+p.grey-text {
+  color: #787878 !important;
+}
+
 .card {
   background-color: white;
   border-radius: 0.1rem;
@@ -361,6 +372,7 @@ section.my-5 {
   font-size: 0.8rem;
   font-family: "Roboto";
   text-align: wrap;
+  color: #787878;
 }
 
 .small {

@@ -25,7 +25,7 @@ export const PikeCreekPage = () => (
         <h5 className="text-center">Coming Soon!</h5>
 
         <p
-          className="contactinfo text-center w-responsive mx-auto"
+          className="contactinfo lead grey-text w-responsive text-center mx-auto mb-5"
           style={{ fontSize: "1em" }}
         >
           Coming Soon to a new location conveniently located in Pike Creek,

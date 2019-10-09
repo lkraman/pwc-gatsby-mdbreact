@@ -40,13 +40,18 @@ const Intro = ({ children }) => {
             </MDBCol>
             <MDBCol md="3">
               {" "}
-              {/* <a href="https://example.com" target="_blank" rel="noopener noreferrer"> */}
-              <MDBBtn className="mask-button mb-4 justify-content-center">
-                <MDBIcon icon="laptop" className=" mr-3"></MDBIcon> Takeout{" "}
-                <br />
-                <span className="coming-soon">Coming soon!</span>
-              </MDBBtn>
-              {/* </a> */}
+              <a
+                href="
+// https://cafeamericana.hrpos.heartland.us/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MDBBtn className="mask-button mb-4 justify-content-center">
+                  <MDBIcon icon="laptop" className=" mr-3"></MDBIcon> Takeout{" "}
+                  <br />
+                  <span className="coming-soon">Coming October 15th!</span>
+                </MDBBtn>
+              </a>
             </MDBCol>
           </MDBRow>
         </MDBCol>

@@ -76,7 +76,7 @@ export const FullMenuPage = () => (
               </p>
               <span className="float-right font-weight-bold">$9.99</span>
               <h6 className="menu-item">Loaded Hummus</h6>
-              <p className="menu-desc">
+              <p className="menu-desc ">
                 {" "}
                 Olives, tomato, and feta cheese served with bread{" "}
               </p>
@@ -87,18 +87,13 @@ export const FullMenuPage = () => (
                 Sauteed shrimp with tomato and avocado on open faced toast (4
                 pieces per order){" "}
               </p>
-              <span className="float-right font-weight-bold">$9.99</span>
+              <span className="float-right font-weight-bold">$8.99</span>
               <h6 className="menu-item">Spinach Queso Dip</h6>
-              <p className="menu-desc">
-                {" "}
-                Olives, tomato, and feta cheese served with bread{" "}
-              </p>
-              <span className="float-right font-weight-bold">$9.99</span>
-              <h6 className="menu-item">Loaded Hummus</h6>
-              <p className="menu-desc">
-                {" "}
-                Olives, tomato, and feta cheese served with bread{" "}
-              </p>
+
+              <span className="float-right font-weight-bold">$8.99</span>
+              <h6 className="menu-item">Pot Sticker</h6>
+              <span className="float-right font-weight-bold">$8.99</span>
+              <h6 className="menu-item">Cheesy Garlic Roated Asparagus</h6>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>

@@ -1,17 +1,22 @@
 import React from "react";
 import "../components/layout.css";
-import filet from "../images/filet.jpg";
-import french_toast_and_fruit from "../images/french_toast_and_fruit.jpg";
+import steak_dinner from "../images/steak_dinner.jpg";
+import two_dishes from "../images/two_dishes.jpg";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 import {
   MDBContainer,
   MDBRow,
-  MDBIcon,
+  MDBView,
   MDBCol,
-  MDBInput,
-  MDBBtn
+  MDBMask,
+  MDBBtn,
+  MDBIcon,
+  MDBCard,
+  MDBCardBody,
+  MDBCardTitle,
+  MDBCardText
 } from "mdbreact";
 
 export const CateringPage = () => (
@@ -24,41 +29,54 @@ export const CateringPage = () => (
         </h2>
         <h5 className="text-center">No event too big or too small!</h5>
         <p className="lead grey-text w-responsive text-center mx-auto mb-5">
-          Why not enjoy your next event! Allow us cater to your guests while you
-          relax knowing your event will be a huge success!
+          Allow us cater to your guests while you relax knowing your event will
+          be a huge success!
         </p>
         <br />
 
         <MDBRow>
           <MDBCol lg="5" className="mb-lg-0 mb-5">
-            <img src={filet} alt="" className="img-fluid rounded z-depth-1" />
+            <MDBView>
+              <img
+                src={steak_dinner}
+                alt=""
+                className="img-fluid rounded z-depth-1"
+              />
+              <MDBMask
+                overlay="stylish-strong"
+                className="flex-center"
+              ></MDBMask>
+            </MDBView>
           </MDBCol>
           <MDBCol lg="7">
             <MDBRow className="mb-3">
               <MDBCol md="1" size="2"></MDBCol>
               <MDBCol md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Customizable Menus</h5>
+                <h5 className="font-weight-bold mb-3">Unique and Personal</h5>
                 <p className="grey-text">
-                  Our menu is your menu! We customize your choices and portions
-                  to accomodate your event.
+                  Every event is different. We will treat your event as an
+                  extension of ourselves. There is not template. We will help
+                  you craft the foods to create your distinctive style.
                 </p>
               </MDBCol>
             </MDBRow>
             <MDBRow className="mb-3">
               <MDBCol md="1" size="2"></MDBCol>
               <MDBCol md="11" size="10">
-                <h5 className="font-weight-bold mb-3">All events</h5>
-                <p className="grey-text">Whether you need</p>
+                <h5 className="font-weight-bold mb-3">Any Size Event</h5>
+                <p className="grey-text">
+                  Whether it's your next business meeting or your upcoming
+                  wedding...we've got you covered!
+                </p>
               </MDBCol>
             </MDBRow>
             <MDBRow className="mb-3">
               <MDBCol md="1" size="2"></MDBCol>
               <MDBCol md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Header</h5>
+                <h5 className="font-weight-bold mb-3">Customizable Menus</h5>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing.
-                  Reprehenderit maiores nam, aperiam minima elit assumenda
-                  voluptate velit.
+                  Our menu is your menu! We customize your choices and portions
+                  to accomodate your next event.
                 </p>
               </MDBCol>
             </MDBRow>
@@ -70,43 +88,31 @@ export const CateringPage = () => (
             <MDBRow className="mb-3">
               <MDBCol md="1" size="2"></MDBCol>
               <MDBCol md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Header</h5>
+                <h5 className="font-weight-bold mb-3">Contact Us</h5>
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing.
-                  Reprehenderit maiores nam, aperiam minima elit assumenda
-                  voluptate velit.
+                  Every event is different. We will treat your event as an
+                  extension of ourselves. There is not template. We will help
+                  you craft the foods to create your distinctive style.
                 </p>
               </MDBCol>
-            </MDBRow>
-            <MDBRow className="mb-3">
-              <MDBCol md="1" size="2"></MDBCol>
-              <MDBCol md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Header</h5>
-                <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing.
-                  Reprehenderit maiores nam, aperiam minima elit assumenda
-                  voluptate velit.
-                </p>
-              </MDBCol>
-            </MDBRow>
-            <MDBRow className="mb-3">
-              <MDBCol md="1" size="2"></MDBCol>
-              <MDBCol md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Header</h5>
-                <p className="grey-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing.
-                  Reprehenderit maiores nam, aperiam minima elit assumenda
-                  voluptate velit.
-                </p>
-              </MDBCol>
+              <MDBBtn className="catering-button mb-4 justify-content-center">
+                <MDBIcon icon="paper-plane" className="catering mr-3"></MDBIcon>{" "}
+                Email Us <br />
+              </MDBBtn>
             </MDBRow>
           </MDBCol>
           <MDBCol lg="5">
-            <img
-              src={french_toast_and_fruit}
-              alt=""
-              className="img-fluid rounded z-depth-1"
-            />
+            <MDBView>
+              <img
+                src={two_dishes}
+                alt=""
+                className="img-fluid rounded z-depth-1"
+              />
+              <MDBMask
+                overlay="stylish-strong"
+                className="flex-center"
+              ></MDBMask>
+            </MDBView>
           </MDBCol>
         </MDBRow>
       </section>

@@ -59,7 +59,30 @@ https://cafeamericana.hrpos.heartland.us/"
                 Takeout
               </a>
             </CustomNavLink> */}
-
+            {/* <MDBNavItem>
+              <MDBDropdown>
+                <MDBDropdownToggle nav caret>
+                  <div className="d-none d-md-inline">Services</div>
+                </MDBDropdownToggle>
+                <MDBDropdownMenu>
+                  <MDBDropdownItem
+                    className="navbar-dropdown white-text"
+                    href="
+     https://cafeamericana.hrpos.heartland.us/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Takeout
+                  </MDBDropdownItem>
+                  <MDBDropdownItem
+                    href="/catering"
+                    className="navbar-dropdown white-text"
+                  >
+                    Catering
+                  </MDBDropdownItem>
+                </MDBDropdownMenu>
+              </MDBDropdown>
+            </MDBNavItem> */}
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>

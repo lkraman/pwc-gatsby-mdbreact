@@ -483,6 +483,16 @@ i.fa.fa-phone.fa-2x {
   color: #b4ab87;
 }
 
+i.fa.fa-paper-plane {
+  background-color: transparent;
+  color: #9cab91;
+}
+
+i.fa.fa-paper-plane:active {
+  background-color: transparent;
+  color: #fff;
+}
+
 a.btn-green.btn {
   background-color: #9cab91;
 }
@@ -548,6 +558,15 @@ button.mask-button:hover {
 .btn-default:not([disabled]):not(.disabled):active {
   background-color: #9cab91 !important;
   border: 3px solid #9cab91;
+  color: #fff !important;
+}
+
+button.catering-button {
+  background-color: transparent !important;
+
+  border: 2px solid #9cab91;
+  color: #9cab91 !important;
+  font-family: "EB Garamond", serif;
 }
 
 /* Mask */

@@ -3,6 +3,7 @@ import "../components/layout.css";
 import steak_dinner from "../images/steak_dinner.jpg";
 import two_dishes from "../images/two_dishes.jpg";
 import Layout from "../components/layout";
+import ContactFormPage from "../components/contactForm";
 import SEO from "../components/seo";
 
 import {
@@ -13,10 +14,7 @@ import {
   MDBMask,
   MDBBtn,
   MDBIcon,
-  MDBCard,
-  MDBCardBody,
-  MDBCardTitle,
-  MDBCardText
+  Animation
 } from "mdbreact";
 
 export const CateringPage = () => (
@@ -83,22 +81,43 @@ export const CateringPage = () => (
           </MDBCol>
         </MDBRow>
         <hr className="my-5" />
+
         <MDBRow>
           <MDBCol lg="7">
             <MDBRow className="mb-3">
               <MDBCol md="1" size="2"></MDBCol>
               <MDBCol md="11" size="10">
-                <h5 className="font-weight-bold mb-3">Contact Us</h5>
+                <h5 className="font-weight-bold mb-3 text-center">
+                  Contact Us
+                </h5>
                 <p className="grey-text">
-                  Every event is different. We will treat your event as an
-                  extension of ourselves. There is not template. We will help
-                  you craft the foods to create your distinctive style.
+                  Every event is different. We treat your event as an extension
+                  of ourselves. You recieve a unique and fully customizable
+                  experience. We help you craft the foods to create your
+                  distinctive style.
                 </p>
+
+                <div>
+                  <Animation
+                    className="catering-button justify-content-center"
+                    type="rubberBand"
+                    duration="2s"
+                  >
+                    <MDBBtn
+                      className="catering-button mb-4"
+                      outline
+                      rounded
+                      hover="true"
+                      waves-effect="true"
+                      size="lg"
+                      href="mailto:cmck@cafeamericana.net"
+                    >
+                      <MDBIcon icon="paper-plane" className="catering mr-3" />{" "}
+                      Email me
+                    </MDBBtn>
+                  </Animation>
+                </div>
               </MDBCol>
-              <MDBBtn className="catering-button mb-4 justify-content-center">
-                <MDBIcon icon="paper-plane" className="catering mr-3"></MDBIcon>{" "}
-                Email Us <br />
-              </MDBBtn>
             </MDBRow>
           </MDBCol>
           <MDBCol lg="5">

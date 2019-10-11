@@ -76,7 +76,7 @@ export const PikeCreekPage = () => (
                 </p>
               </MDBCol>
               <MDBCol md="4">
-                <MDBBtn tag="a" floating>
+                <MDBBtn tag="a" floating href="mailto:cmck@cafeamericana.net">
                   <MDBIcon icon="envelope" />
                 </MDBBtn>
 

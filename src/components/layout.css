@@ -483,14 +483,8 @@ i.fa.fa-phone.fa-2x {
   color: #b4ab87;
 }
 
-i.fa.fa-paper-plane {
-  background-color: transparent;
+.fa-paper-plane:before {
   color: #9cab91;
-}
-
-i.fa.fa-paper-plane:active {
-  background-color: transparent;
-  color: #fff;
 }
 
 a.btn-green.btn {
@@ -561,7 +555,45 @@ button.mask-button:hover {
   color: #fff !important;
 }
 
-button.catering-button {
+div.catering-button {
+  display: flex;
+  justify-content: center;
+}
+
+a.catering-button {
+  background-color: transparent !important;
+
+  border: 2px solid #9cab91 !important;
+  color: #9cab91 !important;
+  font-family: "EB Garamond", serif;
+}
+
+div.about-button {
+  display: flex;
+  justify-content: center;
+}
+
+a.about-button {
+  background-color: transparent !important;
+
+  border: 2px solid #9cab91 !important;
+  color: #9cab91 !important;
+  font-family: "EB Garamond", serif;
+}
+
+.btn-outline-default:not([disabled]):not(.disabled):active {
+  border-color: #9cab91 !important;
+  background-color: #9cab91 !important;
+  color: #fff !important;
+}
+
+.btn-outline-default:not([disabled]):not(.disabled):hover {
+  border-color: #9cab91 !important;
+  background-color: #9cab91 !important;
+  color: #fff !important;
+}
+
+button.send-button {
   background-color: transparent !important;
 
   border: 2px solid #9cab91;

@@ -39,7 +39,7 @@ const FeaturesPage = () => {
                 <MDBIcon icon="user-friends" size="2x" className="green-text" />
               </MDBCol>
               <MDBCol lg="10" md="9" size="10">
-                <h4 className="font-weight-bold yext-center">About Us</h4>
+                <h4 className="font-weight-bold text-center">About Us</h4>
                 <p className="grey-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.

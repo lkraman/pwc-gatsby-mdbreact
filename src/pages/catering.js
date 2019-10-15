@@ -96,26 +96,13 @@ export const CateringPage = () => (
                   experience. We help you craft the foods to create your
                   distinctive style.
                 </p>
-
-                <div>
-                  <Animation
-                    className="catering-button justify-content-center"
-                    type="rubberBand"
-                    duration="2s"
+                <div className="col text-center">
+                  <MDBBtn
+                    className="catering-button mb-4 justify-content-center"
+                    href="mailto:cmck@cafeamericana.net"
                   >
-                    <MDBBtn
-                      className="catering-button mb-4"
-                      outline
-                      rounded
-                      hover="true"
-                      waves-effect="true"
-                      size="lg"
-                      href="mailto:cmck@cafeamericana.net"
-                    >
-                      <MDBIcon icon="paper-plane" className="catering mr-3" />{" "}
-                      Email me
-                    </MDBBtn>
-                  </Animation>
+                    <MDBIcon icon="paper-plane" className=" mr-3" /> Email Us
+                  </MDBBtn>
                 </div>
               </MDBCol>
             </MDBRow>

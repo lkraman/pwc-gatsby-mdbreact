@@ -92,9 +92,9 @@ export const CateringPage = () => (
                 </h5>
                 <p className="grey-text">
                   Every event is different. We treat your event as an extension
-                  of ourselves. You recieve a unique and fully customizable
-                  experience. We help you craft the foods to create your
-                  distinctive style.
+                  of ourselves. You receive a unique and fully customizable
+                  experience. We help you craft the ultimate culinary experience
+                  to create your distinctive style.
                 </p>
                 <div className="col text-center">
                   <MDBBtn

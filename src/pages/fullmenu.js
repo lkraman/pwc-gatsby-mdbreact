@@ -64,7 +64,7 @@ export const FullMenuPage = () => (
       APPETIZERS
     </h3>
     <MDBRow className="d-flex p-2 justify-content-center">
-      <div className="d-flex w-80 p-2 text-center">
+      <div className="w-80 p-2 text-center">
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
@@ -105,7 +105,7 @@ export const FullMenuPage = () => (
       BREAKFAST
     </h3>
     <MDBRow className="d-flex p-2 justify-content-center">
-      <div className="d-flex w-70 p-2 text-center">
+      <div className="w-70 p-2 text-center">
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
@@ -286,7 +286,7 @@ export const FullMenuPage = () => (
     </h3>
 
     <MDBRow className="d-flex p-2 justify-content-center">
-      <div className="d-flex w-70 p-2 text-center">
+      <div className="w-70 p-2 text-center">
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
@@ -588,7 +588,7 @@ export const FullMenuPage = () => (
     </h3>
 
     <MDBRow className="d-flex p-2 justify-content-center">
-      <div className="d-flex w-70 p-2 text-center">
+      <div className="w-70 p-2 text-center">
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
@@ -698,7 +698,7 @@ export const FullMenuPage = () => (
       KIDS MENU
     </h3>
     <MDBRow className="d-flex p-2 justify-content-center">
-      <div className="d-flex w-70 p-2 text-center">
+      <div className="w-70 p-2 text-center">
         <MDBCol>
           <MDBCard>
             <MDBCardBody>
@@ -745,7 +745,7 @@ export const FullMenuPage = () => (
       SPECIALS
     </h3>
     <MDBRow className="d-flex p-2 justify-content-center">
-      <div className="d-flex w-80 p-2 text-center">
+      <div className="w-80 p-2 text-center">
         <MDBCol>
           <MDBCard>
             <MDBCardBody>

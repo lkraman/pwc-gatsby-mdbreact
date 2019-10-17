@@ -70,9 +70,15 @@ export const PikeCreekPage = () => (
                 <MDBBtn tag="a" floating>
                   <MDBIcon icon="phone" />
                 </MDBBtn>
-
-                <p className="contactinfo mb-md-0" style={{ fontSize: "1em" }}>
-                  (302) 543-7363
+                <p className=" contactinfo mb-md-0" style={{ fontSize: "1em" }}>
+                  <a
+                    href="tel:1-302-543-7363"
+                    rel="nofollow"
+                    className="contactinfo-nav-link"
+                    style={{ fontSize: "1em" }}
+                  >
+                    (302) 543-7363
+                  </a>
                 </p>
               </MDBCol>
               <MDBCol md="4">
@@ -82,7 +88,7 @@ export const PikeCreekPage = () => (
 
                 <p className=" contactinfo mb-md-0" style={{ fontSize: "1em" }}>
                   <a
-                    className="nav-link"
+                    className="contactinfo-nav-link"
                     href="mailto:CMCK@cafeamericana.net"
                     style={{ fontSize: "1em", wordWrap: "break-word" }}
                   >

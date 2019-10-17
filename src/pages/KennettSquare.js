@@ -64,12 +64,23 @@ export const KennettSquarePage = () => (
                 </p>
               </MDBCol>
               <MDBCol md="4">
-                <MDBBtn tag="a" floating>
+                <MDBBtn
+                  tag="a"
+                  floating
+                  href="tel:1-484-731-4123"
+                  rel="nofollow"
+                >
                   <MDBIcon icon="phone" />
                 </MDBBtn>
-
-                <p className="contactinfo mb-md-0" style={{ fontSize: "1em" }}>
-                  (484) 731-4123
+                <p className=" contactinfo mb-md-0" style={{ fontSize: "1em" }}>
+                  <a
+                    href="tel:1-484-731-4123"
+                    rel="nofollow"
+                    className="contactinfo-nav-link"
+                    style={{ fontSize: "1em" }}
+                  >
+                    (484) 731-4123
+                  </a>
                 </p>
               </MDBCol>
               <MDBCol md="4">
@@ -79,7 +90,7 @@ export const KennettSquarePage = () => (
 
                 <p className=" contactinfo mb-md-0" style={{ fontSize: "1em" }}>
                   <a
-                    className="nav-link"
+                    className="contactinfo-nav-link"
                     href="mailto:CMCK@cafeamericana.net"
                     style={{ fontSize: "1em", wordWrap: "break-word" }}
                   >

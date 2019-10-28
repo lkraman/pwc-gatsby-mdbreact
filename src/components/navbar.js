@@ -58,8 +58,8 @@ https://cafeamericana.hrpos.heartland.us/"
               >
                 Takeout
               </a>
-            </CustomNavLink> */}
-            {/* <MDBNavItem>
+            </CustomNavLink>{" "} */}
+            <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
                   <div className="d-none d-md-inline">Services</div>
@@ -71,6 +71,7 @@ https://cafeamericana.hrpos.heartland.us/"
      https://cafeamericana.hrpos.heartland.us/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    style={{ paddingTop: "1.5rem" }}
                   >
                     Takeout
                   </MDBDropdownItem>
@@ -82,7 +83,7 @@ https://cafeamericana.hrpos.heartland.us/"
                   </MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
-            </MDBNavItem> */}
+            </MDBNavItem>
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
@@ -92,6 +93,7 @@ https://cafeamericana.hrpos.heartland.us/"
                   <MDBDropdownItem
                     href="/kennettsquare"
                     className="navbar-dropdown white-text"
+                    style={{ paddingTop: "1.5rem" }}
                   >
                     Kennett Square, PA
                   </MDBDropdownItem>

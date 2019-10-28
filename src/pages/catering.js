@@ -1,7 +1,7 @@
 import React from "react";
 import "../components/layout.css";
-import steak_dinner from "../images/steak_dinner.jpg";
-import two_dishes from "../images/two_dishes.jpg";
+import steak_and_wine from "../images/steak_and_wine.jpg";
+import serving_dishes1 from "../images/serving_dishes1.jpg";
 import Layout from "../components/layout";
 import ContactFormPage from "../components/contactForm";
 import SEO from "../components/seo";
@@ -36,12 +36,12 @@ export const CateringPage = () => (
           <MDBCol lg="5" className="mb-lg-0 mb-5">
             <MDBView>
               <img
-                src={steak_dinner}
+                src={steak_and_wine}
                 alt=""
                 className="img-fluid rounded z-depth-1"
               />
               <MDBMask
-                overlay="stylish-strong"
+                overlay="stylish-light"
                 className="flex-center"
               ></MDBMask>
             </MDBView>
@@ -110,12 +110,12 @@ export const CateringPage = () => (
           <MDBCol lg="5">
             <MDBView>
               <img
-                src={two_dishes}
+                src={serving_dishes1}
                 alt=""
                 className="img-fluid rounded z-depth-1"
               />
               <MDBMask
-                overlay="stylish-strong"
+                overlay="stylish-light"
                 className="flex-center"
               ></MDBMask>
             </MDBView>

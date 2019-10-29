@@ -483,11 +483,11 @@ i.fa.fa-phone.fa-2x {
   color: #b4ab87;
 }
 
-i.fa.fa-paper-plane:before {
+i.fa-paper-plane {
   color: #9cab91 !important;
 }
 
-i.fa.fa-paper-plane:active {
+i.fa-paper-plane:active {
   color: #fff !important;
 }
 
@@ -545,17 +545,6 @@ button.mask-button:hover {
   background-color: #9cab91 !important;
 }
 
-button.catering-button {
-  background-color: transparent !important;
-  border: 2px solid #9cab91;
-  color: #9cab91;
-  font-family: "EB Garamond", serif;
-}
-
-button.catering-button:hover {
-  background-color: #9cab91 !important;
-}
-
 .btn-default:not([disabled]):not(.disabled):active {
   background-color: #9cab91 !important;
   border: 3px solid #9cab91;
@@ -574,7 +563,7 @@ a.catering-button:hover {
   color: #fff !important;
 }
 
-a.catering-button:hover div.about-button {
+div.about-button {
   display: flex;
   justify-content: center;
 }

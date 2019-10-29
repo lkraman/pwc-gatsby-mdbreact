@@ -99,7 +99,7 @@ export const CateringPage = () => (
                 <div className="col text-center">
                   <MDBBtn
                     className="catering-button mb-4 justify-content-center"
-                    href="mailto:cmck@cafeamericana.net"
+                    href="mailto:catering@cafeamericana.net"
                   >
                     <MDBIcon icon="paper-plane" className=" mr-3" /> Email Us
                   </MDBBtn>

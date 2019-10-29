@@ -41,8 +41,7 @@ const Intro = ({ children }) => {
             <MDBCol md="3">
               {" "}
               <a
-                href="
-// https://cafeamericana.hrpos.heartland.us/"
+                href="https://cafeamericana.hrpos.heartland.us/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

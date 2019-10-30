@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import SEO from "../components/seo";
 import CafeAmericana_logo_PAN_black1 from "../images/CafeAmericana_logo_PAN_black1.png";
 import "../components/layout.css";
+
 import CustomNavLink from "./customLink";
 import { Link } from "gatsby";
 
@@ -112,6 +113,36 @@ https://cafeamericana.hrpos.heartland.us/"
             <MDBRow right style={{ marginLeft: "1rem" }}>
               <div className="text-right">
                 <ul className="navbar-list-unstyled list-inline">
+                  <li className="list-inline-item">
+                    <MDBDropdown>
+                      <MDBDropdownToggle nav caret mr-3>
+                        <i className="fa fa-phone" aria-hidden="true"></i>
+                      </MDBDropdownToggle>
+                      <MDBDropdownMenu>
+                        <MDBDropdownItem
+                          className="navbar-dropdown white-text"
+                          href="tel:1-484-731-4123"
+                          target="_blank"
+                          rel="nofollow"
+                          style={{ paddingTop: "1.5rem" }}
+                        >
+                          Kennett Square, PA
+                          <br />
+                          (484) 731-4123
+                        </MDBDropdownItem>
+                        <MDBDropdownItem
+                          className="navbar-dropdown white-text"
+                          href="tel:1-484-731-4123"
+                          target="_blank"
+                          rel="nofollow"
+                        >
+                          Pike Creek, DE
+                          <br />
+                          (302) 543-7363
+                        </MDBDropdownItem>
+                      </MDBDropdownMenu>
+                    </MDBDropdown>
+                  </li>
                   <li className="list-inline-item">
                     <a
                       href="https://www.facebook.com/camckonly/"

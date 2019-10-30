@@ -545,10 +545,17 @@ button.mask-button:hover {
   background-color: #9cab91 !important;
 }
 
+button.btn-secondary {
+  background-color: transparent !important;
+  box-shadow: transparent !important;
+  padding: 0.3rem;
+  border-radius: 25px;
+}
+
 .btn-default:not([disabled]):not(.disabled):active {
   background-color: #9cab91 !important;
-  border: 3px solid #9cab91;
-  color: #fff !important;
+  box-shadow: transparent !important;
+  border-color: transparent !important;
 }
 
 a.catering-button {

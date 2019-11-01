@@ -33,8 +33,8 @@ const Intro = ({ children }) => {
             <MDBCol md="3">
               <Link to="/fullmenu">
                 <MDBBtn className="mask-button mb-4 justify-content-center">
-                  <MDBIcon icon="utensils" className=" mr-3"></MDBIcon> View
-                  Menu
+                  <MDBIcon icon="utensils" className=" mr-2"></MDBIcon>
+                  Our Menu
                 </MDBBtn>
               </Link>
             </MDBCol>
@@ -46,7 +46,7 @@ const Intro = ({ children }) => {
                 rel="noopener noreferrer"
               >
                 <MDBBtn className="mask-button mb-4 justify-content-center">
-                  <MDBIcon icon="laptop" className=" mr-3"></MDBIcon> Takeout{" "}
+                  <MDBIcon icon="laptop" className=" mr-2"></MDBIcon> Takeout{" "}
                 </MDBBtn>
               </a>
             </MDBCol>

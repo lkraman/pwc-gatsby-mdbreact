@@ -49,7 +49,17 @@ class NavPage extends Component {
           <MDBNavbarNav left>
             <CustomNavLink to="/">Home</CustomNavLink>
             <CustomNavLink to="/fullmenu">Menu</CustomNavLink>
-
+            {/* <CustomNavLink>
+              <a
+                className="white-text"
+                href="
+https://cafeamericana.hrpos.heartland.us/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Takeout
+              </a>
+            </CustomNavLink>{" "} */}
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>

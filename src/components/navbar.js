@@ -49,21 +49,11 @@ class NavPage extends Component {
           <MDBNavbarNav left>
             <CustomNavLink to="/">Home</CustomNavLink>
             <CustomNavLink to="/fullmenu">Menu</CustomNavLink>
-            {/* <CustomNavLink>
-              <a
-                className="white-text"
-                href="
-https://cafeamericana.hrpos.heartland.us/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Takeout
-              </a>
-            </CustomNavLink>{" "} */}
+
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
-                  <div className="d-none d-md-inline">Services</div>
+                  <div className="d-inline">Services</div>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBDropdownItem
@@ -88,7 +78,7 @@ https://cafeamericana.hrpos.heartland.us/"
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
-                  <div className="d-none d-md-inline">Locations</div>
+                  <div className="d-inline">Locations</div>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
                   <MDBDropdownItem
@@ -109,13 +99,14 @@ https://cafeamericana.hrpos.heartland.us/"
               </MDBDropdown>
             </MDBNavItem>
           </MDBNavbarNav>
+
           <MDBNavbarNav float right style={{ marginRight: "2rem" }}>
             <MDBRow right style={{ marginLeft: "1rem" }}>
               <div className="text-right">
                 <ul className="navbar-list-unstyled list-inline">
                   <li className="list-inline-item">
                     <MDBDropdown>
-                      <MDBDropdownToggle nav caret mr-3>
+                      <MDBDropdownToggle mr-3 nav caret>
                         <i className="fa fa-phone" aria-hidden="true"></i>
                       </MDBDropdownToggle>
                       <MDBDropdownMenu>
@@ -190,3 +181,16 @@ https://cafeamericana.hrpos.heartland.us/"
 }
 
 export default NavPage;
+{
+  /* <CustomNavLink>
+              <a
+                className="white-text"
+                href="
+https://cafeamericana.hrpos.heartland.us/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Takeout
+              </a>
+            </CustomNavLink>{" "} */
+}

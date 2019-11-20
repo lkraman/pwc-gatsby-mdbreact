@@ -247,15 +247,15 @@
 }
 
 .h1 {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
 }
 
 .contactHeader {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
 }
 
 .menu-header {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
 }
 
 section.my-5 {
@@ -294,7 +294,7 @@ section.my-5 {
 }
 
 .card_title {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
 }
 
 @media (min-width: 40rem) {
@@ -364,25 +364,25 @@ p.grey-text {
 .menu-item {
   font-size: 1rem;
   font-style: bold;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   color: #212121;
 }
 
 .menu-desc {
   font-size: 0.8rem;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   text-align: wrap;
   color: #787878;
 }
 
 .small {
   font-size: 0.6rem;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 .p-2 {
   list-style: none;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   color: #787878;
 }
 
@@ -446,16 +446,16 @@ a.dropdown-item.navbar-dropdown:hover {
 }
 
 p.grey-text {
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 p.h4-responsive {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 1.5rem;
 }
 
 p.hoursPhotoHeader {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
 }
 
 h4.card-title {
@@ -534,11 +534,11 @@ button.mask-button {
   background-color: transparent !important;
   border: 2px solid #9cab91;
   color: #9cab91;
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
 }
 
 span.coming-soon {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   font-size: 0.6rem;
 }
 
@@ -563,7 +563,7 @@ a.catering-button {
   background-color: transparent !important;
   border: 2px solid #9cab91 !important;
   color: #9cab91 !important;
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
 }
 
 a.catering-button:hover {
@@ -580,7 +580,7 @@ a.about-button {
   background-color: transparent !important;
   border: 2px solid #9cab91 !important;
   color: #9cab91 !important;
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
 }
 
 .btn-outline-default:not([disabled]):not(.disabled):active {
@@ -600,17 +600,17 @@ button.send-button {
 
   border: 2px solid #9cab91;
   color: #9cab91 !important;
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
 }
 
 .contactinfo {
   color: #787878 !important;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 .contactinfo-nav-link {
   color: #787878 !important;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 .contactinfo-nav-link:active {
@@ -629,13 +629,26 @@ button.send-button {
   color: #9cab91;
 }
 
-/* Mask */
+/* Modal */
 
-/* .white-text:active {
-  background-color: #fff !important;
-  color: #525d75 !important;
-} */
+.modal-button {
+  background-color: white !important;
+  border: 2px solid #9cab91;
+  color: #9cab91 !important;
+  font-family: 'EB Garamond', serif;
+}
 
-/* row.white-text {
-  background-color: #525d75 !important;
-} */
+#modal-font-awesome {
+  background-color: transparent;
+  color: #9cab91;
+}
+
+.modal-body {
+  background-color: #9cab91 !important;
+  font-family: 'Roboto';
+}
+
+.close {
+  background-color: transparent !important;
+  color: white !important;
+}

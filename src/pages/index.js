@@ -1,10 +1,11 @@
-import React, { Component } from "react";
-import Layout from "../components/layout";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
-import Intro from "../components/mask";
-import SEO from "../components/seo";
-import Carousel from "../components/carousel";
+import React, { Component } from 'react'
+import Layout from '../components/layout'
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
+import Intro from '../components/mask'
+import SEO from '../components/seo'
+import Carousel from '../components/carousel'
+import ModalPage from '../components/modalPopUp'
 
 class App extends Component {
   render() {
@@ -24,15 +25,16 @@ class App extends Component {
             `kennett square`,
             `pike creek`,
             `breakfast`,
-            `cafe`
+            `cafe`,
           ]}
         />
+        <ModalPage />
         <Carousel />
         <Intro />
         <Footer />
       </>
-    );
+    )
   }
 }
 
-export default App;
+export default App

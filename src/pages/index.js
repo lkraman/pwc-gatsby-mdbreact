@@ -5,6 +5,7 @@ import Footer from '../components/footer'
 import Intro from '../components/mask'
 import SEO from '../components/seo'
 import Carousel from '../components/carousel'
+import ModalPage from '../components/modalPopUp'
 
 class App extends Component {
   render() {
@@ -27,7 +28,7 @@ class App extends Component {
             `cafe`,
           ]}
         />
-
+        <ModalPage />
         <Carousel />
         <Intro />
         <Footer />

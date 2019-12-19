@@ -5,6 +5,7 @@ import Footer from '../components/footer'
 import Intro from '../components/mask'
 import SEO from '../components/seo'
 import Carousel from '../components/carousel'
+import ModalPage from '../components/modalPopUpChristmasNewYear'
 
 class App extends Component {
   render() {
@@ -19,15 +20,22 @@ class App extends Component {
             `19808`,
             `19348`,
             `19707`,
-            '19311'`pennsylvania`,
+            `19311`,
+            `pennsylvania`,
             `delaware`,
             `kennett square`,
             `pike creek`,
+            `wilmington`,
             `breakfast`,
+            `breakfast near me`,
+            `lunch`,
+            `lunch near me`,
+            `dinner`,
+            `dinner near me`,
             `cafe`,
           ]}
         />
-
+        <ModalPage />
         <Carousel />
         <Intro />
         <Footer />

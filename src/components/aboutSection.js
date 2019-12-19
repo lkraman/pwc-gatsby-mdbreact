@@ -1,5 +1,5 @@
-import React from "react";
-import { MDBBtn, MDBRow, MDBCol, MDBIcon, MDBContainer } from "mdbreact";
+import React from 'react'
+import { MDBBtn, MDBRow, MDBCol, MDBIcon, MDBContainer } from 'mdbreact'
 
 const FeaturesPage = () => {
   return (
@@ -72,7 +72,7 @@ const FeaturesPage = () => {
         </MDBRow>
       </section>
     </MDBContainer>
-  );
-};
+  )
+}
 
-export default FeaturesPage;
+export default FeaturesPage

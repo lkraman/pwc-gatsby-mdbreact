@@ -36,8 +36,8 @@ class ModalPage extends Component {
             </div>
             <h1 className="modal-text justify-text-center"> Happy Holidays!</h1>
             <p>
-              Please observe our Holiday Hours. Online orders must be receive at
-              least one hour prior to closing time
+              Please observe our Holiday Hours. Online orders must be received
+              at least one hour prior to closing time
             </p>
             <h3 className="modal-text justify-text-center">
               12/24 CHRISTMAS EVE: <br />

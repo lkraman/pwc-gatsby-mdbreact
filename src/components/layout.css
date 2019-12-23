@@ -648,6 +648,13 @@ button.send-button {
   font-family: 'Roboto';
 }
 
+.holiday-modal-days {
+   font-family: 'EB Garamond', serif;
+}
+
+.holiday-modal-notice-text {
+  font-size: .7rem;
+}
 .close {
   background-color: transparent !important;
   color: white !important;

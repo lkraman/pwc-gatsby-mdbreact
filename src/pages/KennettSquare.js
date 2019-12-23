@@ -27,7 +27,7 @@ export const KennettSquarePage = () => (
           style={{ fontSize: "1em" }}
         >
           Conveniently located in Kennett Square, PA with ample, well-lit
-          parking, come join us for your next home-cooked meal!
+          parking. Come join us for your next home-cooked meal!
         </p>
         <br />
         <MDBRow>

@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Cafe Americana',
+    title: 'PWC Insurance Group',
     description:
-      'Home-style cooking located in Kennett Square, PA and Pike Creek, DE',
-    siteUrl: 'https://www.cafeamericana.net',
+      "We provide Liability Insurance, Workman's Compensation, and Life & Health Insurance for your business and home",
+    siteUrl: 'https://www.pwcinsurancegroup.com',
     author: 'laura kraman',
   },
   plugins: [
@@ -21,13 +21,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cafe Americana`,
-        short_name: `Cafe Americana`,
+        name: `PWC Insurance Group`,
+        short_name: `PWC Insurance Group`,
         start_url: `/`,
         background_color: `#f5efe1`,
         theme_color: `#7f9c52`,
         display: `standalone`,
-        icon: `${__dirname}/src/images/CafeAmericana_logo_PAN_black1.png`, // This path is relative to the root of the site.
+        icon: `${__dirname}/src/images/pwc_stacked_logo.png`, // This path is relative to the root of the site.
       },
     },
     // {

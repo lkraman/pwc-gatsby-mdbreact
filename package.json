@@ -1,7 +1,7 @@
 {
-  "name": "cafe-americana-gatsby-mdbreact2",
+  "name": "pwc-gatsby-mdbreact",
   "private": true,
-  "description": "Home-style restaurant located in Kennett Square, Pa and Pike Creek, De",
+  "description": "B2B Liability, Home, Health, and Auto Solutions",
   "version": "0.1.0",
   "author": "Laura Kraman <laurakraman01@gmail.com>",
   "dependencies": {
@@ -34,16 +34,16 @@
     "react-dom": "16.8.6"
   },
   "keywords": [
-    "cafe americana",
-    "restaurant",
-    "19348",
-    "19707",
+    "B2B Liability Insurance",
+    "Business Insurance",
+    "Workman's Comp",
+    "Health",
+    "Life",
+    "Insurance",
     "pennsylvania",
     "delaware",
-    "kennett square",
-    "pike creek",
-    "breakfast",
-    "cafe"
+    "kennett square"
+ 
   ],
   "license": "MIT",
   "scripts": {
@@ -58,9 +58,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lkraman/cafe-americana-gatsby-mdbreact2.git"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/lkraman/cafe-americana-gatsby-mdbreact2/issues"
+    "url": ""
   }
 }

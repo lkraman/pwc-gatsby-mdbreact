@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react'
 import {
   MDBCarousel,
   MDBCarouselInner,
   MDBCarouselItem,
+  MDBBtn,
   MDBView,
-  MDBMask
-} from "mdbreact";
-import pancakes_strawberry from "../images/pancakes_strawberry.jpg";
-import cafe_wall from "../images/cafe_wall.jpg";
-import kennett_cafe from "../images/kennett_cafe.jpg";
+  MDBMask,
+} from 'mdbreact'
+import are_you_covered_laptop from '../images/are_you_covered_laptop.jpg'
+import are_you_covered_form from '../images/are_you_covered_form.jpg'
 
 const CarouselPage = () => {
   return (
     <MDBCarousel
       activeItem={1}
-      length={3}
+      length={2}
       showControls={false}
       showIndicators={false}
       className="z-depth-1"
@@ -22,7 +22,11 @@ const CarouselPage = () => {
       <MDBCarouselInner>
         <MDBCarouselItem itemId="1">
           <MDBView>
-            <img className="d-block w-100" src={cafe_wall} alt="cafe wall" />
+            <img
+              className="d-block w-100"
+              src={are_you_covered_form}
+              alt="Insurance photo form"
+            />
             <MDBMask overlay="black-strong" />
           </MDBView>
         </MDBCarouselItem>
@@ -30,25 +34,15 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src={pancakes_strawberry}
-              alt="pancakes strawberry"
-            />
-            <MDBMask overlay="black-strong" />
-          </MDBView>
-        </MDBCarouselItem>
-        <MDBCarouselItem itemId="3">
-          <MDBView>
-            <img
-              className="d-block w-100"
-              src={kennett_cafe}
-              alt="kennett square cafe americana"
+              src={are_you_covered_laptop}
+              alt="Insurance photo"
             />
             <MDBMask overlay="black-strong" />
           </MDBView>
         </MDBCarouselItem>
       </MDBCarouselInner>
     </MDBCarousel>
-  );
-};
+  )
+}
 
-export default CarouselPage;
+export default CarouselPage

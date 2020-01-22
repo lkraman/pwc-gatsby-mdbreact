@@ -3,9 +3,9 @@ import Layout from '../components/layout'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import Intro from '../components/mask'
-import SEO from '../components/seo'
 import Carousel from '../components/carousel'
-import ModalPage from '../components/modalPopUpChristmasNewYear'
+
+import SEO from '../components/seo'
 
 class App extends Component {
   render() {
@@ -15,29 +15,21 @@ class App extends Component {
         <SEO
           title="Home"
           keywords={[
-            `cafe americana`,
-            `restaurant`,
-            `19808`,
-            `19348`,
-            `19707`,
-            `19311`,
-            `pennsylvania`,
-            `delaware`,
-            `kennett square`,
-            `pike creek`,
-            `wilmington`,
-            `breakfast`,
-            `breakfast near me`,
-            `lunch`,
-            `lunch near me`,
-            `dinner`,
-            `dinner near me`,
-            `cafe`,
+            'B2B Liability Insurance',
+            'Business Insurance',
+            "Workman's Comp",
+            'Health',
+            'Life',
+            'Insurance',
+            'pennsylvania',
+            'delaware',
+            'kennett square',
           ]}
         />
-        <ModalPage />
+
         <Carousel />
         <Intro />
+
         <Footer />
       </>
     )

@@ -1,36 +1,36 @@
-import React, { Component } from "react";
-import classNames from "classnames";
-import { MDBWaves } from "mdbreact";
-import { navigate } from "gatsby";
+import React, { Component } from 'react'
+import classNames from 'classnames'
+import { MDBWaves } from 'mdbreact'
+import { navigate } from 'gatsby'
 
 class customLink extends Component {
   state = {
-    cursorPos: {}
-  };
+    cursorPos: {},
+  }
 
   handleClick = e => {
     if (!this.props.disabled) {
-      e.stopPropagation();
+      e.stopPropagation()
       let cursorPos = {
         top: e.clientY,
         left: e.clientX,
-        time: Date.now()
-      };
-      this.setState({ cursorPos: cursorPos });
+        time: Date.now(),
+      }
+      this.setState({ cursorPos: cursorPos })
     }
-  };
+  }
 
   render() {
-    const { children, className, disabled, location, to } = this.props;
+    const { children, className, disabled, location, to } = this.props
 
-    const { cursorPos } = this.state;
+    const { cursorPos } = this.state
 
     const classes = classNames(
-      "nav-item",
-      disabled ? "disabled" : "Ripple-parent",
-      location === to && "active",
+      'nav-item',
+      disabled ? 'disabled' : 'Ripple-parent',
+      location === to && 'active',
       className
-    );
+    )
 
     return (
       <li
@@ -43,8 +43,8 @@ class customLink extends Component {
         <span className="nav-link">{children}</span>
         {!disabled && <MDBWaves cursorPos={cursorPos} />}
       </li>
-    );
+    )
   }
 }
 
-export default customLink;
+export default customLink

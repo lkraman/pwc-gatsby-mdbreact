@@ -1,7 +1,7 @@
 .navbar.navbar-dark {
   min-width: 100vw;
   font-size: 1.2rem;
-  background-color: #b4ab87;
+  background-color: #d92121;
   opacity: 0.8;
 }
 
@@ -12,7 +12,7 @@
 
 .page-footer {
   min-width: 100vw;
-  background-color: #b4ab87;
+  background-color: #d92121;
   opacity: 0.8;
 }
 
@@ -155,7 +155,7 @@
 }
 
 .badge-primary {
-  background-color: #b4ab87;
+  background-color: #d92121;
 }
 
 .bg-faded {
@@ -247,15 +247,15 @@
 }
 
 .h1 {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Roboto', serif;
 }
 
 .contactHeader {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Roboto', serif;
 }
 
 .menu-header {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Roboto', serif;
 }
 
 section.my-5 {
@@ -294,7 +294,7 @@ section.my-5 {
 }
 
 .card_title {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Roboto', serif;
 }
 
 @media (min-width: 40rem) {
@@ -314,7 +314,7 @@ p.lead {
 }
 
 p.grey-text {
-  color: #787878 !important;
+  color: #111111 !important;
 }
 
 .card {
@@ -355,26 +355,6 @@ p.grey-text {
   list-style: none;
 }
 
-.menu-links {
-  position: fixed;
-  width: 100%;
-  top: 0;
-}
-
-.menu-item {
-  font-size: 1rem;
-  font-style: bold;
-  font-family: 'Roboto';
-  color: #212121;
-}
-
-.menu-desc {
-  font-size: 0.8rem;
-  font-family: 'Roboto';
-  text-align: wrap;
-  color: #787878;
-}
-
 .small {
   font-size: 0.6rem;
   font-family: 'Roboto';
@@ -387,8 +367,9 @@ p.grey-text {
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #212121;
+  padding-left: 100px;
 }
 
 a.nav-link {
@@ -408,16 +389,20 @@ a.nav-link {
   color: #9cab91;
 }
 
+li.list-inline-item {
+  padding-right: 2px !important;
+}
+
 .a:active {
   color: #9cab91;
 }
 
 .a:hover {
-  color: #b4ab87;
+  color: #d92121;
 }
 
 a.dropdown-item.navbar-dropdown {
-  background-color: #b4ab87 !important;
+  background-color: #d92121 !important;
   color: #fff;
 }
 
@@ -428,7 +413,7 @@ a.dropdown-item.navbar-dropdown:active {
 }
 
 a.dropdown-item.navbar-dropdown:hover {
-  background-color: #b4ab87dc !important;
+  background-color: #d92121dc !important;
   border: 0px solid !important;
   border-radius: 0rem !important;
   color: #fff;
@@ -454,10 +439,6 @@ p.h4-responsive {
   font-size: 1.5rem;
 }
 
-p.hoursPhotoHeader {
-  font-family: 'EB Garamond', serif;
-}
-
 h4.card-title {
   font-size: 2.5rem;
 }
@@ -468,40 +449,12 @@ button.btn-danger {
   color: #f44336;
 }
 
-button.btn-brown {
-  border: 2px solid #b4ab87;
-  background-color: transparent;
-  color: #b4ab87;
-}
-
-i.fa.fa-user-friends {
-  background-color: transparent;
-  color: #9cab91;
-}
-
-i.fa.fa-phone.fa-2x {
-  background-color: transparent;
-  color: #b4ab87;
-}
-
-i.fa-paper-plane {
-  color: #9cab91 !important;
-}
-
-i.fa-paper-plane:active {
-  color: #fff !important;
-}
-
-a.btn-green.btn {
-  background-color: #9cab91;
-}
-
 .mb-md-0 {
   color: #272727;
 }
 
 .send-border-color {
-  border: 2px solid #9cab91;
+  border: 2px solid #9194ab;
   color: #9cab91;
 }
 
@@ -530,57 +483,16 @@ i {
   color: #fff;
 }
 
-button.mask-button {
-  background-color: transparent !important;
-  border: 2px solid #9cab91;
-  color: #9cab91;
-  font-family: 'EB Garamond', serif;
-}
-
-span.coming-soon {
-  font-family: 'EB Garamond', serif;
-  font-size: 0.6rem;
-}
-
-button.mask-button:hover {
-  background-color: #9cab91 !important;
-}
-
-button.btn-secondary {
-  background-color: transparent !important;
-  box-shadow: transparent !important;
-  padding: 0.3rem;
-  border-radius: 25px;
-}
-
-.btn-default:not([disabled]):not(.disabled):active {
-  background-color: #9cab91 !important;
-  box-shadow: transparent !important;
-  border-color: transparent !important;
-}
-
-a.catering-button {
-  background-color: transparent !important;
-  border: 2px solid #9cab91 !important;
-  color: #9cab91 !important;
-  font-family: 'EB Garamond', serif;
-}
-
-a.catering-button:hover {
-  background-color: #9cab91 !important;
-  color: #fff !important;
-}
-
-div.about-button {
+div.services-button {
   display: flex;
   justify-content: center;
 }
 
-a.about-button {
+a.services-button {
   background-color: transparent !important;
   border: 2px solid #9cab91 !important;
   color: #9cab91 !important;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Roboto', serif;
 }
 
 .btn-outline-default:not([disabled]):not(.disabled):active {
@@ -600,7 +512,7 @@ button.send-button {
 
   border: 2px solid #9cab91;
   color: #9cab91 !important;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Roboto', serif;
 }
 
 .contactinfo {
@@ -617,45 +529,11 @@ button.send-button {
   color: #9cab91;
 }
 
-.contactinfo-nav-link:active {
-  color: #9cab91;
+div.collapse .navbar-collapse {
+  padding-right: 100px !important;
 }
 
-.nav-link:active {
-  color: #9cab91;
-}
-
-.a.nav-link:hover {
-  color: #9cab91;
-}
-
-/* Modal */
-
-.modal-button {
-  background-color: white !important;
-  border: 2px solid #9cab91;
-  color: #9cab91 !important;
-  font-family: 'EB Garamond', serif;
-}
-
-#modal-font-awesome {
-  background-color: transparent;
-  color: #9cab91;
-}
-
-.modal-body {
-  background-color: #9cab91 !important;
-  font-family: 'Roboto';
-}
-
-.holiday-modal-days {
-   font-family: 'EB Garamond', serif;
-}
-
-.holiday-modal-notice-text {
-  font-size: .7rem;
-}
-.close {
-  background-color: transparent !important;
-  color: white !important;
+/*-------------Services Page-------------------*/
+h6.services {
+  color: rgb(0, 0, 0) !important;
 }

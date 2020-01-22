@@ -16,7 +16,7 @@ body {
   font-size: 100%;
 }
 
-div[role="group"][tabindex] {
+div[role='group'][tabindex] {
   height: 100%;
 }
 
@@ -42,7 +42,7 @@ h4,
 h5,
 h6 {
   font-size-adjust: 0.5;
-  font-family: "EB Garamond", serif;
+  /* font-family: 'Arial', serif; */
 }
 
 #page {

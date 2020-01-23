@@ -1,8 +1,8 @@
-import React from 'react'
-import '../components/layout.css'
-import protection_image from '../images/protection_image.jpg'
-import SEO from '../components/seo'
-import Layout from '../components/layout'
+import React from 'react';
+import '../components/layout.css';
+
+import SEO from '../components/seo';
+import Layout from '../components/layout';
 
 import {
   MDBContainer,
@@ -10,12 +10,12 @@ import {
   MDBRow,
   MDBIcon,
   MDBCol,
-  MDBBtn,
-} from 'mdbreact'
+  MDBBtn
+} from 'mdbreact';
 
-export const KennettSquarePage = () => (
-  <Layout pageInfo={{ pageName: 'kennettsquare' }}>
-    <SEO title="Cafe Americana Restaurant Kennett Square, Pa" />
+export const ContactPage = () => (
+  <Layout pageInfo={{ pageName: 'contact' }}>
+    <SEO title="Directions and Contact information for PWC Insurance Group" />
     <MDBContainer>
       <section className="my-5">
         <h2 className="contactHeader h1-responsive font-weight-bold text-center my-5">
@@ -23,22 +23,22 @@ export const KennettSquarePage = () => (
         </h2>
 
         <p
-          className="contactinfo lead grey-text w-responsive text-center mx-auto mb-5"
+          className="contactinfo lead w-responsive text-center mx-auto mb-5"
           style={{ fontSize: '1em' }}
         >
-          Conveniently located in Kennett Square, PA with ample, well-lit
-          parking. Come join us for your next home-cooked meal!
+          Contact us! Day or night, we are here to assist you with your business
+          and home insurance needs.
         </p>
         <br />
         <MDBRow>
-          <MDBCol md="8">
+          <MDBCol md="12">
             <div
               id="map-container"
               className="rounded z-depth-1-half map-container"
               style={{ height: '400px' }}
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3063.545481615192!2d-75.73343248462156!3d3913960717943639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf57a5bbc1e46eb63!2sCafe%20Americana!5e0!3m2!1sen!2sus!4v1568214217767!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12253.79326944724!2d-75.72294731297444!3d39.84178514821698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6561d895093b9%3A0x7a00a323f0aee14c!2st%26b%20solution%20inc!5e0!3m2!1sen!2sus!4v1579794059712!5m2!1sen!2sus"
                 title="Cafe Americana Map"
                 width="100%"
                 height="100%"
@@ -55,10 +55,12 @@ export const KennettSquarePage = () => (
                 <p
                   className="contactinfo"
                   style={{
-                    fontSize: '1em',
+                    fontSize: '1em'
                   }}
                 >
-                  350 Scarlet Rd.
+                  326 W. Cedar St.
+                  <br />
+                  Suite 1
                   <br />
                   Kennett Square, Pa 19348
                 </p>
@@ -67,19 +69,19 @@ export const KennettSquarePage = () => (
                 <MDBBtn
                   tag="a"
                   floating
-                  href="tel:1-484-731-4123"
+                  href="tel:1-610-444-4749"
                   rel="nofollow"
                 >
                   <MDBIcon icon="phone" />
                 </MDBBtn>
                 <p className=" contactinfo mb-md-0" style={{ fontSize: '1em' }}>
                   <a
-                    href="tel:1-484-731-4123"
+                    href="tel:1-610-444-4749"
                     rel="nofollow"
                     className="contactinfo-nav-link"
                     style={{ fontSize: '1em' }}
                   >
-                    (484) 731-4123
+                    (610) 444-4749
                   </a>
                 </p>
               </MDBCol>
@@ -91,45 +93,19 @@ export const KennettSquarePage = () => (
                 <p className=" contactinfo mb-md-0" style={{ fontSize: '1em' }}>
                   <a
                     className="contactinfo-nav-link"
-                    href="mailto:CMCK@cafeamericana.net"
+                    href="mailto:paola.rosas@pwcinsurancegroup.com"
                     style={{ fontSize: '1em', wordWrap: 'break-word' }}
                   >
-                    CMCK@cafeamericana.net
+                    paola.rosas@pwcinsurancegroup.com
                   </a>
                 </p>
               </MDBCol>
             </MDBRow>
           </MDBCol>
-
-          <br />
-
-          <MDBCol md="4">
-            <p className="hoursPhotoHeader h5 text-center mb-1">
-              Hours of Operation:
-            </p>
-            <br />
-            <div className="d-flex flex-column right">
-              <MDBCardImage
-                hover
-                overlay="white-slight"
-                className="z-depth-1-half rounded mx-auto d-block"
-                src={protection_image}
-                alt="protection"
-              />
-              <div className="p-2 col-example text-center">
-                Mon - Sat: 7AM - 8PM
-              </div>
-              <div className="p-2 col-example text-center">Sun: 7AM - 4PM</div>
-              <div className="p-2 col-example text-center">
-                Please visit our FaceBook page for Holiday hours and inclement
-                weather closings.
-              </div>
-            </div>
-          </MDBCol>
         </MDBRow>
       </section>
     </MDBContainer>
   </Layout>
-)
+);
 
-export default KennettSquarePage
+export default ContactPage;

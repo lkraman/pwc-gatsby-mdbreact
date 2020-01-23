@@ -1,8 +1,7 @@
 .navbar.navbar-dark {
   min-width: 100vw;
   font-size: 1.2rem;
-  background-color: #d92121;
-  opacity: 0.8;
+  background-color: #8a0909;
 }
 
 .nav-link {
@@ -12,8 +11,7 @@
 
 .page-footer {
   min-width: 100vw;
-  background-color: #d92121;
-  opacity: 0.8;
+  background-color: #8a0909;
 }
 
 .carousel {
@@ -38,7 +36,7 @@
 /* .theme-colors (
   "default": #7f9c52,
   "primary": #525d75,
-  "danger": #f44336,
+  "danger": #8a0909,
   "custom-color": #c0996b,
   "custom-color": #fae4ca
 ); 
@@ -155,7 +153,7 @@
 }
 
 .badge-primary {
-  background-color: #d92121;
+  background-color: #8a0909;
 }
 
 .bg-faded {
@@ -262,6 +260,10 @@ section.my-5 {
   margin-top: 1rem;
 }
 
+.btn-default {
+  background-color: #c41212 !important;
+}
+
 .btn {
   color: #000;
   padding: 0.8rem;
@@ -276,7 +278,7 @@ section.my-5 {
 }
 
 .btn:hover {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #c41212;
 }
 
 /* menu */
@@ -337,7 +339,7 @@ p.grey-text {
 }
 
 .card_title {
-  color: #212121;
+  color: #111111;
   font-size: 1.2rem;
   font-weight: 800;
   font-style: inherit;
@@ -347,7 +349,7 @@ p.grey-text {
 }
 
 .card_text {
-  color: #212121;
+  color: #111111;
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1rem;
@@ -368,13 +370,13 @@ p.grey-text {
 
 .nav-link {
   font-size: 1rem;
-  color: #212121;
+  color: #111111;
   padding-left: 100px;
 }
 
 a.nav-link {
   font-size: 1.2rem;
-  color: #212121;
+  color: #111111;
 }
 
 .nav-link:hover {
@@ -398,11 +400,11 @@ li.list-inline-item {
 }
 
 .a:hover {
-  color: #d92121;
+  color: #8a0909;
 }
 
 a.dropdown-item.navbar-dropdown {
-  background-color: #d92121 !important;
+  background-color: #8a0909 !important;
   color: #fff;
 }
 
@@ -413,7 +415,7 @@ a.dropdown-item.navbar-dropdown:active {
 }
 
 a.dropdown-item.navbar-dropdown:hover {
-  background-color: #d92121dc !important;
+  background-color: #8a0909dc !important;
   border: 0px solid !important;
   border-radius: 0rem !important;
   color: #fff;
@@ -444,13 +446,13 @@ h4.card-title {
 }
 
 button.btn-danger {
-  border: 2px solid #f44336;
+  border: 2px solid #8a0909;
   background-color: transparent;
-  color: #f44336;
+  color: #8a0909;
 }
 
 .mb-md-0 {
-  color: #272727;
+  color: #111111;
 }
 
 .send-border-color {
@@ -472,7 +474,7 @@ button.btn-danger {
 }
 
 a.btn {
-  background-color: #9cab91 !important;
+  background-color: #c41212 !important;
 }
 
 a.btn:active {
@@ -507,21 +509,21 @@ a.services-button {
   color: #fff !important;
 }
 
-button.send-button {
+/* button.send-button {
   background-color: transparent !important;
 
   border: 2px solid #9cab91;
   color: #9cab91 !important;
   font-family: 'Roboto', serif;
-}
+} */
 
 .contactinfo {
-  color: #787878 !important;
+  color: #111111 !important;
   font-family: 'Roboto';
 }
 
 .contactinfo-nav-link {
-  color: #787878 !important;
+  color: #111111 !important;
   font-family: 'Roboto';
 }
 

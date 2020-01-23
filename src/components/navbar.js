@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
-import SEO from '../components/seo'
-import pwc_horizontal_logo from '../images/pwc_horizontal_logo.png'
-import '../components/layout.css'
+import React, { Component } from 'react';
+import SEO from '../components/seo';
+import pwc_horizontal_logo from '../images/pwc_horizontal_logo.png';
+import '../components/layout.css';
 
-import CustomNavLink from './customLink'
-import { Link } from 'gatsby'
+import CustomNavLink from './customLink';
+import { Link } from 'gatsby';
 
 import {
   MDBNavbar,
@@ -16,22 +16,21 @@ import {
   MDBDropdownToggle,
   MDBDropdownMenu,
   MDBDropdownItem,
-  MDBRow,
-} from 'mdbreact'
+  MDBRow
+} from 'mdbreact';
 
 class NavPage extends Component {
   state = {
-    isOpen: false,
-  }
+    isOpen: false
+  };
 
   toggleCollapse = () => {
-    this.setState({ isOpen: !this.state.isOpen })
-  }
+    this.setState({ isOpen: !this.state.isOpen });
+  };
 
   render() {
     return (
       <MDBNavbar
-        opacity=".99"
         dark
         expand="navbar navbar-expand-lg"
         style={{ marginBottom: '.1rem' }}
@@ -48,10 +47,11 @@ class NavPage extends Component {
           <MDBNavbarNav left>
             <CustomNavLink to="/">Home</CustomNavLink>
             <CustomNavLink to="/services">Services</CustomNavLink>
+            <CustomNavLink to="/contact">Contact Us</CustomNavLink>
           </MDBNavbarNav>
 
           <MDBNavbarNav float right>
-            <MDBRow right style={{ marginLeft: '1rem' }}>
+            <MDBRow right style={{ marginLeft: '1rem', marginRight: '6rem' }}>
               <div className="text-right">
                 <ul className="navbar-list-unstyled list-inline">
                   <li className="list-inline-item">
@@ -65,7 +65,7 @@ class NavPage extends Component {
                           href="tel:1-610-444-4750"
                           target="_blank"
                           rel="nofollow"
-                          style={{ paddingTop: '1.5rem' }}
+                          // style={{ paddingTop: '1.5rem' }}
                         >
                           (610) 444-4740
                         </MDBDropdownItem>
@@ -83,7 +83,7 @@ class NavPage extends Component {
                           href="mailto:paola.rosas@pwcinsurancegroup.com"
                           target="_blank"
                           rel="nofollow"
-                          style={{ paddingTop: '1.5rem', marginRight: '10px' }}
+                          // style={{ paddingTop: '1rem' }}
                         >
                           Contact Agent
                         </MDBDropdownItem>
@@ -96,8 +96,8 @@ class NavPage extends Component {
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
-    )
+    );
   }
 }
 
-export default NavPage
+export default NavPage;

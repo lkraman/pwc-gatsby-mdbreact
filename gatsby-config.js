@@ -24,8 +24,8 @@ module.exports = {
         name: `PWC Insurance Group`,
         short_name: `PWC Insurance Group`,
         start_url: `/`,
-        background_color: `#f5efe1`,
-        theme_color: `#7f9c52`,
+        background_color: `#ffffff`,
+        theme_color: `#c41212`,
         display: `standalone`,
         icon: `${__dirname}/src/images/pwc_stacked_logo.png`, // This path is relative to the root of the site.
       },

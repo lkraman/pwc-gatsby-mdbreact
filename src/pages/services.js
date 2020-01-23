@@ -1,25 +1,12 @@
-import React from 'react'
-import '../components/layout.css'
-import liability_ins_handheld_form from '../images/liability_ins_handheld_form.jpg'
-import protection_image from '../images/protection_image.jpg'
-import Layout from '../components/layout'
-import ContactFormPage from '../components/contactForm'
-import SEO from '../components/seo'
+import React from 'react';
+import '../components/layout.css';
+import liability_ins_handheld_form from '../images/liability_ins_handheld_form.jpg';
+import protection_image from '../images/protection_image.jpg';
+import Layout from '../components/layout';
 
-import {
-  MDBContainer,
-  MDBRow,
-  MDBView,
-  MDBCol,
-  MDBMask,
-  MDBBtn,
-  MDBIcon,
-  Animation,
-  MDBCard,
-  MDBCardBody,
-  MDBCardTitle,
-  MDBCardText,
-} from 'mdbreact'
+import SEO from '../components/seo';
+
+import { MDBContainer, MDBRow, MDBView, MDBCol, MDBMask } from 'mdbreact';
 
 export const ServicesPage = () => (
   <Layout pageInfo={{ pageName: 'services' }}>
@@ -144,6 +131,6 @@ export const ServicesPage = () => (
       </section>
     </MDBContainer>
   </Layout>
-)
+);
 
-export default ServicesPage
+export default ServicesPage;

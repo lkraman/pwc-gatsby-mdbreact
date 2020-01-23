@@ -1,4 +1,5 @@
 node_modules/
+outputDir
 public
 .gatsby-context.js
 .DS_Store
@@ -6,3 +7,8 @@ public
 .cache/
 .vscode/
 *.tgz
+yarn.lock
+yarn-error.log
+.prettierrc
+.prettierignore
+README.md

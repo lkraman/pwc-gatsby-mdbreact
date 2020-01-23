@@ -1,4 +1,4 @@
-# # React Bootstrap with Material Design
+<!-- # # React Bootstrap with Material Design
 
 [![npm version](https://badge.fury.io/js/mdbreact.svg)](https://badge.fury.io/js/mdbreact)
 
@@ -19,4 +19,4 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 ## Usage
 
 develop
-`gatsby develop`
+`gatsby develop` -->

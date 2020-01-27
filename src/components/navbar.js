@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import SEO from '../components/seo';
-import pwc_horizontal_logo from '../images/pwc_horizontal_logo.png';
+import pwc_horizontal_logo_v2 from '../images/pwc_horizontal_logo_v2.png';
 import '../components/layout.css';
 
 import CustomNavLink from './customLink';
@@ -40,7 +40,12 @@ class NavPage extends Component {
           className="white-text"
           style={{ marginLeft: '2rem', marginRight: '1rem' }}
         >
-          <img src={pwc_horizontal_logo} type="image/svg" width="200" alt="" />
+          <img
+            src={pwc_horizontal_logo_v2}
+            type="image/svg"
+            width="200"
+            alt=""
+          />
         </Link>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse5" isOpen={this.state.isOpen} navbar>

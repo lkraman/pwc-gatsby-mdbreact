@@ -67,7 +67,7 @@ class NavPage extends Component {
                           rel="nofollow"
                           // style={{ paddingTop: '1.5rem' }}
                         >
-                          (610) 444-4740
+                          (610) 444-4750
                         </MDBDropdownItem>
                       </MDBDropdownMenu>
                     </MDBDropdown>
@@ -80,7 +80,7 @@ class NavPage extends Component {
                       <MDBDropdownMenu>
                         <MDBDropdownItem
                           className="navbar-dropdown white-text"
-                          href="mailto:paola.rosas@pwcinsurancegroup.com"
+                          href="mailto:customer.service@pwcinsurancegroup.com"
                           target="_blank"
                           rel="nofollow"
                           // style={{ paddingTop: '1rem' }}

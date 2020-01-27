@@ -1,15 +1,15 @@
-import React from 'react'
+import React from 'react';
 import {
   MDBContainer,
   MDBTooltip,
   MDBBtn,
   MDBRow,
   MDBCol,
-  MDBIcon,
-} from 'mdbreact'
-import pwc_horizontal_logo from '../images/pwc_horizontal_logo.svg'
-import './layout.css'
-import { Link } from 'gatsby'
+  MDBIcon
+} from 'mdbreact';
+import pwc_horizontal_logo from '../images/pwc_horizontal_logo.svg';
+import './layout.css';
+import { Link } from 'gatsby';
 
 const Intro = ({ children }) => {
   return (
@@ -20,7 +20,7 @@ const Intro = ({ children }) => {
       >
       <MDBRow className="mask-box justify-content-center">
         <MDBCol md="12" className="white-text text-center">
-          <img src={pwc_horizontal_logo} type="image/svg" width="90%" alt="" />
+          <img src={pwc_horizontal_logo} type="image/svg" width="100%" alt="" />
           <hr className="hr-light my-3 w-75" />
 
           <MDBRow className="justify-content-center">
@@ -36,7 +36,7 @@ const Intro = ({ children }) => {
         </MDBCol>
       </MDBRow>
     </MDBContainer>
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;

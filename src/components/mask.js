@@ -7,7 +7,7 @@ import {
   MDBCol,
   MDBIcon
 } from 'mdbreact';
-import pwc_horizontal_logo from '../images/pwc_horizontal_logo.svg';
+import pwc_horizontal_logo from '../images/pwc_horizontal_logo_v2.svg';
 import './layout.css';
 import { Link } from 'gatsby';
 
@@ -20,7 +20,12 @@ const Intro = ({ children }) => {
       >
       <MDBRow className="mask-box justify-content-center">
         <MDBCol md="12" className="white-text text-center">
-          <img src={pwc_horizontal_logo} type="image/svg" width="100%" alt="" />
+          <img
+            src={pwc_horizontal_logo_v2}
+            type="image/svg"
+            width="100%"
+            alt=""
+          />
           <hr className="hr-light my-3 w-75" />
 
           <MDBRow className="justify-content-center">

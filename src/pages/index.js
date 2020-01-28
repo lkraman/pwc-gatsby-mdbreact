@@ -4,7 +4,6 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Intro from '../components/mask';
 import Carousel from '../components/carousel';
-import Features from '../components/features';
 
 import SEO from '../components/seo';
 
@@ -27,10 +26,8 @@ class App extends Component {
             'kennett square'
           ]}
         />
-
         <Carousel />
-        <Intro />
-
+        <Intro />S
         <Footer />
       </>
     );

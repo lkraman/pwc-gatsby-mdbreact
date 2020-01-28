@@ -48,7 +48,7 @@ export const ContactPage = () => (
             </div>
             <br />
             <MDBRow className="text-center">
-              <MDBCol md="4">
+              <MDBCol md="3">
                 <MDBBtn tag="a" floating>
                   <MDBIcon icon="map-marker-alt" />
                 </MDBBtn>
@@ -65,7 +65,22 @@ export const ContactPage = () => (
                   Kennett Square, Pa 19348
                 </p>
               </MDBCol>
-              <MDBCol md="4">
+              <MDBCol md="3">
+                <MDBBtn tag="a" floating>
+                  <MDBIcon icon="clock" />
+                </MDBBtn>
+                <p
+                  className="contactinfo"
+                  style={{
+                    fontSize: '1em'
+                  }}
+                >
+                  Monday-Friday
+                  <br />
+                  8AM-4PM
+                </p>
+              </MDBCol>
+              <MDBCol md="3">
                 <MDBBtn
                   tag="a"
                   floating
@@ -85,7 +100,7 @@ export const ContactPage = () => (
                   </a>
                 </p>
               </MDBCol>
-              <MDBCol md="4">
+              <MDBCol md="3">
                 <MDBBtn
                   tag="a"
                   floating

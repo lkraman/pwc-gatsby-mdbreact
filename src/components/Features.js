@@ -1,9 +1,7 @@
-import React from "react";
-import "../components/layout.css";
+import React from 'react';
+import { MDBBtn, MDBRow, MDBCol, MDBIcon, MDBContainer } from 'mdbreact';
 
-import { MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn } from "mdbreact";
-
-export const Features = () => {
+const Features = () => {
   return (
     <MDBContainer>
       <section className="my-5">
@@ -76,3 +74,5 @@ export const Features = () => {
     </MDBContainer>
   );
 };
+
+export default Features;

@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
-import Layout from '../components/layout'
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
-import Intro from '../components/mask'
-import Carousel from '../components/carousel'
+import React, { Component } from 'react';
+import Layout from '../components/layout';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import Intro from '../components/mask';
+import Carousel from '../components/carousel';
+import Features from '../components/features';
 
-import SEO from '../components/seo'
+import SEO from '../components/seo';
 
 class App extends Component {
   render() {
@@ -23,16 +24,17 @@ class App extends Component {
             'Insurance',
             'pennsylvania',
             'delaware',
-            'kennett square',
+            'kennett square'
           ]}
         />
 
         <Carousel />
         <Intro />
+
         <Footer />
       </>
-    )
+    );
   }
 }
 
-export default App
+export default App;

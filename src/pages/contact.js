@@ -115,7 +115,9 @@ export const ContactPage = () => (
                     href="mailto:customer.service@pwcinsurancegroup.com"
                     style={{ fontSize: '1em', wordWrap: 'break-word' }}
                   >
-                    customer.service@pwcinsurancegroup.com
+                    customer.service
+                    <br />
+                    @pwcinsurancegroup.com
                   </a>
                 </p>
               </MDBCol>
